@@ -1,6 +1,8 @@
 {
   "modules": {
     "core": "https://github.com/getkirby/kirby.git",
-    "plugins": {}
+    "plugins": {
+      "kirby3-static-site-generator": "https://github.com/d4l-data4life/kirby3-static-site-generator.git"
+    }
   }
 }

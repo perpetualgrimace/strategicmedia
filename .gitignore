@@ -9,6 +9,9 @@ www/site/sessions/*
 !www/site/sessions/index.html
 www/site/config/credentials.php
 
+### Webpack build files ###
+www/assets/builds/*
+
 ### PHP ###
 php-error.log*
 
@@ -67,4 +70,5 @@ Temporary Items
 
 # <KirbyWebpack>
 www/kirby
+www/site/plugins/kirby3-static-site-generator
 # </KirbyWebpack>
