@@ -7,4 +7,13 @@
   <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
   <?= liveCSS('assets/builds/bundle.css') ?>
 </head>
+
+<ul><? foreach ($site->children()->listed() as $item): ?>
+	<li>
+		<a href="<?= $item->slug() ?>">
+			<?= $item->title()->html() ?>
+		</a>
+	</li>
+<? endforeach ?></ul>
+
 <body>
