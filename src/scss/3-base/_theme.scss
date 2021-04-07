@@ -1,0 +1,73 @@
+////////////////////////////////
+// base theme (light)
+////////////////////////////////
+
+// page background
+html {
+	background: $light-1;
+	color: $dark-1;
+}
+
+// headings
+h1, h2, h3, h4, h5, h6,
+.heading {
+	color: $brand-color;
+}
+
+// links
+a {
+	color: $brand-color;
+	text-decoration-color: $light-2;
+
+	&:hover, &:focus {
+		color: $brand-light;
+		text-decoration-color: currentColor;
+	}
+}
+
+// nav links
+nav {
+	background-color: $dark-3;
+}
+nav a {
+	color: rgba($light-2, 0.875);
+	text-decoration-color: transparent;
+	transition:
+		color $duration-sm,
+		text-decoration-color $duration-sm;
+
+	&:hover, &:focus {
+		color: $honey;
+		text-decoration-color: $brand-color;
+	}
+}
+
+// horizontal rule
+hr {
+	@include hr;
+}
+
+
+////////////////////////////////
+// enhancements
+////////////////////////////////
+
+// selection
+::selection {
+	color: $white;
+	background: rgba($brand-color, 0.9);
+}
+img::selection {
+	background: rgba($brand-color, 0.5);
+}
+
+// focus style
+:focus {
+	outline: $border-width solid rgba($brand-light, 0.5);
+	outline-offset: $border-width * 2;
+}
+
+// hide focus ring when not using keyboard
+:focus:not(:focus-visible) {
+	outline: none;
+}

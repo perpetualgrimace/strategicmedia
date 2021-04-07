@@ -1,0 +1,37 @@
+////////////////////////////////
+// lists
+////////////////////////////////
+
+// all lists
+.content {
+  ul, ol {
+    padding-left: $gutter;
+    list-style: none;
+
+    > li:before {
+      position: absolute;
+      left: -$gutter;
+    }
+  }
+}
+
+// bulleted lists
+.bullets,
+.content ul {
+
+  > li:before {
+  	content: '•';
+  }
+}
+
+// ordered lists
+ol {
+  counter-reset: list-counter;
+
+  > li:before {
+  	content: counter(list-counter)'.';
+  	counter-increment: list-counter;
+    font-size: 0.75em;
+    top: 0.25rem;
+  }
+}

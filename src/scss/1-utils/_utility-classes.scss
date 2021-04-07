@@ -1,0 +1,150 @@
+////////////////////////////////
+// typography
+////////////////////////////////
+
+// font sizes
+.u-font-xs   { font-size : $font-xs; }
+.u-font-sm   { font-size : $font-sm; }
+.u-font-md   { font-size : $font-md; }
+.u-font-lg   { font-size : $font-lg; }
+.u-font-xl   { font-size : $font-xl; }
+.u-font-xxl  { font-size : $font-xxl; }
+.u-font-xxxl { font-size : $font-xxxl; }
+
+// alignment classes -- the same on all screen sizes
+.u-left   { text-align: left; }
+.u-right  { text-align: right; }
+.u-center { text-align: center; }
+
+// switch alignment around 630px width (mobile first)
+.u-center-left {
+  text-align: center;
+  @media (min-width: $bp-md) { text-align: left; }
+}
+.u-center-right {
+  text-align: center;
+  @media (min-width: $bp-md) { text-align: right; }
+}
+.u-left-center {
+  text-align: left;
+  @media (min-width: $bp-md) { text-align: center; }
+}
+.u-left-right {
+  text-align: left;
+  @media (min-width: $bp-md) { text-align: right; }
+}
+.u-right-left {
+  text-align: right;
+  @media (min-width: $bp-md) { text-align: left; }
+}
+.u-right-center {
+  text-align: right;
+  @media (min-width: $bp-md) { text-align: center; }
+}
+
+// UPPERCASE
+.u-uppercase {
+  text-transform: uppercase;
+}
+
+// screen reader text
+.u-visually-hidden {
+  @include visually-hidden;
+}
+
+
+////////////////////////////////
+// layout
+////////////////////////////////
+
+.u-fullwidth {
+  @include fullwidth; // expand horizontally to fill up viewport
+}
+
+
+////////////////////////////////
+// margins
+////////////////////////////////
+
+// margin-top
+.u-margin-top-sm {
+  margin-top: $gutter / 2 !important;
+}
+.u-margin-top,
+.u-margin-top-m {
+  margin-top: $gutter !important;
+}
+.u-margin-top-lg {
+  margin-top: $gutter * 2 !important;
+}
+.u-margin-top-xl {
+  margin-top: $gutter * 3 !important;
+}
+.u-margin-top-off {
+  margin-top: 0 !important;
+}
+.u-margin-top-off-children * + * {
+  margin-top: 0; // no need for !important, just overriding the * + * selector
+}
+
+// margin-bottom
+.u-margin-bottom-sm {
+  margin-bottom: $gutter / 2 !important;
+}
+.u-margin-bottom,
+.u-margin-bottom-m {
+  margin-bottom: $gutter !important;
+}
+.u-margin-bottom-lg {
+  margin-bottom: $gutter * 2 !important;
+}
+.u-margin-bottom-xl {
+  margin-bottom: $gutter * 3 !important;
+}
+.u-margin-bottom-off {
+  margin-bottom: 0 !important;
+}
+
+
+////////////////////////////////
+// hide content
+////////////////////////////////
+
+// hide on small screens
+.u-hide-below-xs {
+  @media (max-width: $bp-xxs - 0.001) {
+    display: none !important;
+  }
+}
+.u-hide-below-m {
+  @media (max-width: $bp-md - 0.001) {
+    display: none !important;
+  }
+}
+.u-hide-below-l {
+  @media (max-width: $bp-lg - 0.001) {
+    display: none !important;
+  }
+}
+.u-hide-below-xl {
+  @media (max-width: $bp-xl - 0.001) {
+    display: none !important;
+  }
+}
+
+// hide on large screens
+.u-hide-above-s {
+  @media (min-width: $bp-sm) {
+    display: none !important;
+  }
+}
+.u-hide-above-m {
+  @media (min-width: $bp-md) {
+    display: none !important;
+  }
+}
+.u-hide-above-l {
+  @media (min-width: $bp-lg) {
+    display: none !important;
+  }
+}

@@ -1,0 +1,101 @@
+////////////////////////////////
+// colors
+////////////////////////////////
+
+$safety    : #FFE300;
+$honey     : #F7B617;
+$tangerine : #F28C20;
+$flame     : #EC6223;
+$cinnabar  : #E8372D;
+
+// brand palette
+$brand-light : $flame;
+$brand-color : $cinnabar;
+
+// neutrals
+$white   : #FFFFFF;
+$light-1 : #F2F5FC;
+$light-2 : #CACED9;
+$light-3 : #A4A9B7;
+$gray    : #7F8594;
+$dark-1  : #596073;
+$dark-2  : #343C50;
+$dark-3  : #181C25;
+$black   : #101319;
+
+// shadow
+$shadow      : rgba($gray, 0.1);
+$shadow-dark : rgba($black, 0.2);
+
+// ui colors
+$success-color : #3DDC97;
+$error-color   : #FF495C;
+
+// social media colors
+$socialColors : (
+	"facebook"  : #3b5998,
+	"twitter"   : #00aced,
+	"dribbble"  : #ea4c89,
+	"github"    : #4078c0,
+	"codepen"   : #47cf73,
+	"linkedin"  : #0077B5,
+	"instagram" : #e4405f
+);
+
+////////////////////////////////
+// font sizes
+////////////////////////////////
+
+$font-xs   : rem(11);
+$font-sm   : rem(16);
+$font-md   : rem(20); // 1rem
+$font-lg   : rem(23);
+$font-xl   : rem(30);
+$font-xxl  : rem(38);
+$font-xxxl : rem(56);
+
+////////////////////////////////
+// breakpoints
+////////////////////////////////
+
+$bp-xxxs : 20em;
+$bp-xxs  : 30em;
+$bp-xs   : 36em;
+$bp-sm   : 42em;
+$bp-md   : 56em;
+$bp-lg   : 68em;
+$bp-xl   : 77.75em;
+$bp-xxl  : 92em;
+$bp-xxxl : 100em;
+
+////////////////////////////////
+// miscellaneous measurements
+////////////////////////////////
+
+// border
+$border-width : 2px;
+
+// border radius
+$radius-sm : rem(6);
+$radius-md : rem(12);
+$radius-lg : rem(22);
+
+// layout
+$gutter        : 1rem;
+$outer-width   : rem(1200);
+$inner-width   : rem(1160);
+$hero-height   : rem(300);
+
+// used by nav
+$nav-height     : rem(50);
+$logo-icon-size : 30px;
+$logo-width     : calc(#{$logo-icon-size} + 3px + 11.5em);
+
+////////////////////////////////
+// motion
+////////////////////////////////
+
+$duration-xs: 0.1s ease-out;
+$duration-sm: 0.2s ease-out;
+$duration-md: 0.275s ease-out;
+$duration-lg: 0.4s ease-out;

@@ -1,0 +1,54 @@
+// default
+html {
+	@include body-font;
+	line-height: 1.5;
+}
+
+// semibold
+a {
+	@include body-semibold-font;
+}
+
+// bold
+strong, b, dt {
+	@include body-bold-font;
+}
+
+// italic
+em, i {
+	@include body-italic-font;
+
+	& > a {
+		font-style: inherit;
+	}
+}
+
+// heading
+.heading,
+h1, h2, h3, h4, h5, h6 {
+	@include display-font;
+	letter-spacing: normal;
+	text-transform: uppercase;
+	line-height: 1;
+}
+
+// subhead
+button, input[type='button'], label,
+nav a,
+.subhead {
+	@include subhead-font;
+	text-transform: uppercase;
+}
+
+// type size defaults
+h1 {
+	font-size: $font-xxl;
+
+	@media (min-width: $bp-md) {
+		font-size: $font-xxxl;
+	}
+}
+h2                   { font-size : $font-xl; }
+h3, p, li            { font-size : $font-md; }
+h4, figcaption       { font-size : $font-sm; }
+h5, h6, small, label { font-size : $font-xs; }

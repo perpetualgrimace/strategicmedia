@@ -1,3 +1,26 @@
-body {
-  margin: 50px;
-}
+// Utilities
+@import "scss/1-utils/functions";
+@import "scss/1-utils/variables";
+@import "scss/1-utils/mixins";
+@import "scss/1-utils/keyframes";
+@import "scss/1-utils/utility-classes";
+
+// Vendor
+// @import "scss/2-vendor/jf-grid";
+
+// Base
+@import "scss/3-base/reset";
+@import "scss/3-base/typography";
+@import "scss/3-base/theme";
+@import "scss/3-base/lists";
+@import "scss/3-base/form-fields";
+// @import "scss/3-base/tables";
+// @import "scss/3-base/blockquotes";
+// @import "scss/3-base/print";
+
+// Layout
+@import "scss/4-layout/layout";
+
+// Components
+// @import "scss/5-components/button";
+// @import "scss/5-components/nav";

@@ -1,0 +1,206 @@
+////////////////////////////////
+// typography
+////////////////////////////////
+
+// body fonts
+@mixin body-font {
+	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+@mixin body-italic-font {
+	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+	font-style: italic;
+	font-weight: 400;
+}
+@mixin body-semibold-font {
+	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+}
+@mixin body-bold-font {
+	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
+// heading fonts
+@mixin display-font {
+	font-family: "Dosis", Arial Narrow, Arial Rounded MT Bold, Helvetica Rounded, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+}
+
+@mixin subhead-font {
+	font-family: "Dosis", Arial Narrow, Arial Rounded MT Bold, Helvetica Rounded, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+////////////////////////////////
+// dark mode
+////////////////////////////////
+
+@mixin dark-mode {
+	@media (prefers-color-scheme: dark) {
+		@content;
+	}
+}
+
+////////////////////////////////
+// layout & positioning
+////////////////////////////////
+
+@mixin layout-wrapper($padding: $gutter, $width: $outer-width) {
+	width: $width;
+	max-width: 100%;
+	padding: #{$padding};
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// break out of container and be full width
+@mixin fullwidth {
+	margin-left: auto; // fallbacks
+	margin-right: auto;
+	margin-left: calc(-50vw + 50%);
+	margin-right: calc(-50vw + 50%);
+}
+
+// Psuedo elements
+@mixin pseudo {
+	content: '';
+	display: block;
+}
+
+// Fill up an absolutely 100% amount of space; let yourself be huge
+@mixin absolute-expand {
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+// Centered elements, the dumb but sometimes useful way
+@mixin absolute-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+@mixin absolute-vertical-center {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+@mixin absolute-horizontal-center {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+// Auto-ellipsis
+@mixin ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+@mixin visually-hidden {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+
+////////////////////////////////
+// background images
+////////////////////////////////
+
+// hidpi mixin, somewhat inspired by responsive.scss.
+@mixin hidpi($multiplier: 1.5) {
+	@media (min-device-pixel-ratio: $multiplier), (min-resolution: (96dpi * $multiplier)) {
+		@content;
+	}
+}
+
+// Svg background with fallback and retina support
+@mixin svg($filename, $path : "img/") {
+	background-image: url(../../#{$path}#{$filename}.png);
+	background-image:
+		linear-gradient(transparent, transparent),
+		url(../../#{$path}#{$filename}.svg);
+
+	// hi res
+	@include hidpi {
+		background-image: url(../../#{$path}#{$filename}@2x.png);
+		background-image:
+			linear-gradient(transparent, transparent),
+			url(../../#{$path}#{$filename}.svg);
+	}
+}
+
+
+////////////////////////////////
+// shadow
+////////////////////////////////
+
+// box shadow
+@mixin box-shadow($shadow-color: $shadow) {
+	box-shadow: 0 1px 0.25em $shadow-color;
+}
+@mixin box-shadow-lg($shadow-color: $shadow) {
+	box-shadow: 0 1px 0.5em $shadow-color;
+}
+
+// text shadow
+@mixin text-shadow($shadow-color: $shadow) {
+	text-shadow: 0 1px 0.25em $shadow-color;
+}
+
+@mixin text-shadow-lg($shadow-color: $shadow-dark) {
+	text-shadow: 0 1px 0.5em $shadow-color;
+}
+
+
+////////////////////////////////
+// horizontal rule
+////////////////////////////////
+
+@mixin hr {
+	border: 0;
+	display: inline-block;
+	width: 2rem;
+	height: 2px;
+	border-radius: $border-width;
+	background-color: $light-2;
+
+	@include dark-mode {
+		background-color: $dark-2;
+	}
+}
+
+
+////////////////////////////////
+// nav / dropdown-menu
+////////////////////////////////
+
+// dropdown mixins for hidden and visible states
+@mixin dropdown-hidden {
+	position: absolute;
+	width: auto;
+	transform: scale(1.05);
+	opacity: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+	z-index: -100;
+}
+@mixin dropdown-visible {
+	transform: translate(0, 0);
+	opacity: 1;
+	clip: auto;
+	overflow: visible;
+	z-index: 1;
+}
