@@ -3,6 +3,8 @@ icon: 📝
 preset: page
 
 status:
+  listed: Visible
+  unlisted: Hidden
   draft: true
 
 pages:
