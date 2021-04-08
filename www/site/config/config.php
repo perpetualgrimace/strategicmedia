@@ -3,5 +3,6 @@
 @include __DIR__ . DS . 'credentials.php';
 
 return [
-  'debug' => false
+  'debug' => false,
+  'afbora.kirby-minify-html.enabled' => true,
 ];

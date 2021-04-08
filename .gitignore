@@ -71,4 +71,5 @@ Temporary Items
 # <KirbyWebpack>
 www/kirby
 www/site/plugins/kirby3-static-site-generator
+www/site/plugins/kirby-minify-html
 # </KirbyWebpack>
