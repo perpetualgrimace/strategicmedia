@@ -1,5 +1,11 @@
-<?php snippet('header') ?>
+<? snippet('header') ?>
 
-<h1><?= $page->title()->html() ?></h1>
+<? snippet('body-open') ?>
+	<? snippet('hero') ?>
 
-<?php snippet('footer') ?>
+	<? snippet('main-open') ?>
+		
+	<? snippet('main-close') ?>
+<? snippet('body-close') ?>
+
+<? snippet('footer') ?>

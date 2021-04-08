@@ -1,0 +1,51 @@
+nav,
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+nav ul {
+	margin-left: -$gutter;
+	margin-right: -$gutter;
+}
+
+nav a {
+	display: inline-block;
+	padding: $gutter ($gutter * 0.75);
+}
+
+.header-nav-logo {
+	margin-left: -$gutter;
+	margin-right: auto;
+	padding-right: $gutter * 2;
+}
+
+@media (max-width: $bp-xs - 0.001) {
+	.header-nav-inner {
+		display: block;
+		text-align: center;
+	}
+	.header-nav-logo {
+		padding-right: 0;
+	}
+	.header-nav-list {
+		max-width: 100%;
+		width: max-content;
+		margin: 0 auto;
+	}
+	.header-nav-link {
+		padding: 0.5em 0.75em;
+	}
+}
+
+@media (min-width: $bp-sm) and (min-height: $bp-xs) {
+	.header-nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 10;
+		background: transparent;
+	}
+}

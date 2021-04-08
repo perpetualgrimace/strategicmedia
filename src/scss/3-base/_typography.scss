@@ -25,19 +25,25 @@ em, i {
 
 // heading
 .heading,
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+nav a {
 	@include display-font;
 	letter-spacing: normal;
 	text-transform: uppercase;
+	letter-spacing: 0.0275em;
 	line-height: 1;
 }
 
 // subhead
 button, input[type='button'], label,
-nav a,
 .subhead {
 	@include subhead-font;
 	text-transform: uppercase;
+	letter-spacing: 0.0375em;
+}
+
+.subhead {
+	line-height: 1.375;
 }
 
 // type size defaults
@@ -52,3 +58,9 @@ h2                   { font-size : $font-xl; }
 h3, p, li            { font-size : $font-md; }
 h4, figcaption       { font-size : $font-sm; }
 h5, h6, small, label { font-size : $font-xs; }
+
+br {
+	@media (max-width: $bp-sm) {
+		display: none;
+	}
+}

@@ -1,14 +1,27 @@
-  <?= js('assets/builds/bundle.js') ?>
+<footer class="footer dark-theme">
+  <div class="g-container">
+    
+    <!-- navigation -->
+    <div class="footer-nav g-col">
+      <? snippet('footer-nav') ?>
+    </div>
 
-  	<nav>
-		  <ul><? foreach ($pages->not('home')->not('error') as $item): ?>
-		  	<li>
-		  		<a href="<?= $item->slug() ?>">
-		  			<?= $item->title()->html() ?>
-		  		</a>
-		  	</li>
-		  <? endforeach ?></ul>
-	  </nav>
+    <!-- copyright -->
+    <div class="footer-copyright g-col">
+      <? snippet('footer-copyright') ?>
+    </div>
 
-  </body>
+    <!-- social -->
+    <div class="footer-contact g-col">
+      <? snippet('footer-contact') ?>
+    </div>
+
+  </div>
+</footer>
+
+
+<?= js('assets/builds/bundle.js') ?>
+
+
+</body>
 </html>

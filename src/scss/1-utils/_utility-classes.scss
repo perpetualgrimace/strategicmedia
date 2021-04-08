@@ -19,27 +19,27 @@
 // switch alignment around 630px width (mobile first)
 .u-center-left {
   text-align: center;
-  @media (min-width: $bp-md) { text-align: left; }
+  @media (min-width: $bp-sm) { text-align: left; }
 }
 .u-center-right {
   text-align: center;
-  @media (min-width: $bp-md) { text-align: right; }
+  @media (min-width: $bp-sm) { text-align: right; }
 }
 .u-left-center {
   text-align: left;
-  @media (min-width: $bp-md) { text-align: center; }
+  @media (min-width: $bp-sm) { text-align: center; }
 }
 .u-left-right {
   text-align: left;
-  @media (min-width: $bp-md) { text-align: right; }
+  @media (min-width: $bp-sm) { text-align: right; }
 }
 .u-right-left {
   text-align: right;
-  @media (min-width: $bp-md) { text-align: left; }
+  @media (min-width: $bp-sm) { text-align: left; }
 }
 .u-right-center {
   text-align: right;
-  @media (min-width: $bp-md) { text-align: center; }
+  @media (min-width: $bp-sm) { text-align: center; }
 }
 
 // UPPERCASE

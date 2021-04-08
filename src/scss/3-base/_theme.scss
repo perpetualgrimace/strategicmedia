@@ -26,9 +26,6 @@ a {
 }
 
 // nav links
-nav {
-	background-color: $dark-3;
-}
 nav a {
 	color: rgba($light-2, 0.875);
 	text-decoration-color: transparent;
@@ -37,14 +34,26 @@ nav a {
 		text-decoration-color $duration-sm;
 
 	&:hover, &:focus {
-		color: $honey;
-		text-decoration-color: $brand-color;
+		color: $white;
+		text-decoration-color: $honey;
 	}
 }
 
 // horizontal rule
 hr {
 	@include hr;
+}
+
+////////////////////////////////
+// dark theme
+////////////////////////////////
+
+.dark-theme {
+	background-color: $dark-3;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $white;
+	}
 }
 
 
@@ -55,10 +64,10 @@ hr {
 // selection
 ::selection {
 	color: $white;
-	background: rgba($brand-color, 0.9);
+	background: rgba($brand-light, 0.9);
 }
 img::selection {
-	background: rgba($brand-color, 0.5);
+	background: rgba($brand-light, 0.5);
 }
 
 // focus style

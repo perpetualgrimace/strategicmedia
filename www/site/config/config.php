@@ -4,5 +4,6 @@
 
 return [
   'debug' => false,
+  'smartypants' => true,
   'afbora.kirby-minify-html.enabled' => true,
 ];

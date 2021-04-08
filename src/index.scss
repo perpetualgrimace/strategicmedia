@@ -6,7 +6,7 @@
 @import "scss/1-utils/utility-classes";
 
 // Vendor
-// @import "scss/2-vendor/jf-grid";
+@import "scss/2-vendor/jf-grid";
 
 // Base
 @import "scss/3-base/reset";
@@ -23,4 +23,5 @@
 
 // Components
 // @import "scss/5-components/button";
-// @import "scss/5-components/nav";
+@import "scss/5-components/nav";
+@import "scss/5-components/hero";
