@@ -7,13 +7,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap" rel="stylesheet">
 
-  <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
+  <title>
+  	<? if (!$page->isHomePage()) {
+  		echo $page->title()->html() . " | ";
+  	} ?>
+		<?= $site->title()->html() ?>
+	</title>
   <?= liveCSS('assets/builds/bundle.css') ?>
 </head>
 
 <nav>
 	<a class="logo" href="<?= $site->url() ?>">
-		<?= $site->title() ?>
+		<img src="assets/images/strategic_media_inverted@2x.png" width="265" height="47" alt="<?= $site->title() ?>" />
 	</a>
 	<ul><? foreach ($site->children()->listed() as $item): ?>
 		<li>
