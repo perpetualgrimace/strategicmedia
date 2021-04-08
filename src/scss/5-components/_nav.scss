@@ -47,5 +47,6 @@ nav a {
 		right: 0;
 		z-index: 10;
 		background: transparent;
+		transition: background-color $duration-sm;
 	}
 }

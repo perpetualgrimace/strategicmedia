@@ -11,3 +11,11 @@ Subhead: Our powerful partner-marketing programs help you find <br /> and engage
 ----
 
 Text: I'm text
+
+----
+
+HeroVideo: iStock-101301401
+
+----
+
+HeroImg: iStock-101301401-preview.png
