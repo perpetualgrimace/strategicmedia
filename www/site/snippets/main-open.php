@@ -1,1 +1,1 @@
-<main class="g-container u-padding-top-off" id="main" role="main">
+<main class="main" id="main" role="main">

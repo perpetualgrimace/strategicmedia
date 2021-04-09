@@ -2,6 +2,7 @@
 html {
 	@include body-font;
 	line-height: 1.5;
+	letter-spacing: 0.0375em;
 }
 
 // semibold
@@ -31,7 +32,7 @@ nav a {
 	letter-spacing: normal;
 	text-transform: uppercase;
 	letter-spacing: 0.0275em;
-	line-height: 1;
+	line-height: 1.25;
 }
 
 // subhead

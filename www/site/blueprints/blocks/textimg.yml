@@ -4,6 +4,9 @@ tabs:
   content:
     label: Content
     fields:
+      heading:
+        label: Heading (optional)
+        type: text
       text: fields/markdown
       img: fields/singleimg
   settings:

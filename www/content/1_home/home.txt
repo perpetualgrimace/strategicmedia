@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Blocks: [{"content":{"text":"Partner marketing blah","img":["marketing-matchmakers3.jpg"],"orientation":"default"},"id":"3ac4e174-94c3-40ac-92b8-3edbea4289f7","isHidden":false,"type":"textImg"}]
+Blocks: [{"content":{"heading":"Marketing matchmakers for some of the world’s great brands","text":"Strategic Media builds highly-targeted marketing partnerships between publishers and e-commerce sites that help both parties grow and maintain stronger audiences.","img":["marketing-matchmakers3.jpg"],"orientation":"default"},"id":"3ac4e174-94c3-40ac-92b8-3edbea4289f7","isHidden":false,"type":"textImg"}]
 
 ----
 
