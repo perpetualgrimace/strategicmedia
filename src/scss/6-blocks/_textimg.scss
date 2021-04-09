@@ -3,9 +3,13 @@
 }
 
 .textimg-img {
-	margin: -$gutter;
+	@media (min-width: $bp-sm) {
+		margin: -$gutter;
+	}
 }
 
 .textimg-caption {
 	line-height: 1.75;
+	padding-top: $gutter * 2;
+	padding-bottom: $gutter * 2;
 }
