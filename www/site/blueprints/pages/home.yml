@@ -14,3 +14,4 @@ sections:
           - image
           - text
           textImg: blocks/textImg
+          bgImg: blocks/bgimg

@@ -1,0 +1,12 @@
+.bgimg-block {
+	min-height: 24rem;
+	height: 50vh;
+	overflow: hidden;
+}
+
+.bgimg-img {
+	@include absolute-expand;
+	object-fit: cover;
+	object-position: center;
+	z-index: -1;
+}

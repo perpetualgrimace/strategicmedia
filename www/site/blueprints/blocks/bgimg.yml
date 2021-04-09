@@ -1,0 +1,17 @@
+name: Background image
+icon: image
+tabs:
+  content:
+    label: Content
+    fields:
+      img: fields/singleimg
+  # settings:
+  #   label: Settings
+  #   fields:
+  #     orientation:
+  #       label: Orientation
+  #       type: radio
+  #       options:
+  #         default: "Text left, image right"
+  #         flipped: "Image left, text right"
+  #       default: default
