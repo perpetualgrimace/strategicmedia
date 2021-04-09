@@ -16,6 +16,7 @@
   	} ?>
 		<?= $site->title()->html() ?>
 	</title>
+	
   <?= liveCSS('assets/builds/bundle.css') ?>
 </head>
 

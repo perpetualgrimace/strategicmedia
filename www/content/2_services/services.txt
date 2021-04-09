@@ -2,4 +2,4 @@ Title: Services
 
 ----
 
-Text: 
+heroImg: services-hero.jpg

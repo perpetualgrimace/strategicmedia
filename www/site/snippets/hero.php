@@ -1,11 +1,17 @@
 <?
   if($page->headline() != '') { $headline = $page->headline(); }
   else { $headline = $page->title(); }
+
+  $isHome = $page->isHomePage();
 ?>
 
-<header class="hero <? if ($page->isHomePage()) { echo 'home-hero '; } ?>u-fullwidth dark-theme" role="banner">
+<header class="hero <? if($isHome) { 
+  echo 'home-hero '; 
+} ?><? if($page->heroImg() != NULL && $page->heroImg() != '') { 
+  echo ' dark-theme';
+} ?>" role="banner">
 
-  <div class="hero-inner g-container u-left-center">
+  <div class="hero-inner g-container<? if($isHome) { echo ' u-left-center'; } ?>">
     <h1 class="hero-headline g-col">
       <?= $headline ?>
 

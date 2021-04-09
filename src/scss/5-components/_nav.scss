@@ -6,8 +6,8 @@ nav ul {
 }
 
 nav ul {
-	margin-left: -$gutter;
-	margin-right: -$gutter;
+	margin-left: -$gutter * 0.75;
+	margin-right: -$gutter * 0.75;
 }
 
 nav a {
@@ -16,7 +16,7 @@ nav a {
 }
 
 .header-nav-logo {
-	margin-left: -$gutter;
+	margin-left: -$gutter * 0.75;
 	margin-right: auto;
 	padding-right: $gutter * 2;
 	display: flex;
@@ -61,14 +61,36 @@ nav a {
 	}
 }
 
-@media (min-width: $bp-sm) and (min-height: $bp-xs) {
-	.header-nav {
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-		z-index: 10;
+.header-nav:not(.dark-theme) {
+	background-color: $white;
+	box-shadow: 1px 0 1px $gray;
+
+	nav a {
+		color: $dark-1;
+	}
+
+	.header-nav-logo-text {
+		color: $black;
+	}
+}
+
+.header-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+
+	&.is-transparent {
 		background: transparent;
+
+		.header-nav-logo-text {
+			color: $white;
+		}
+	}
+
+	@media (min-width: $bp-sm) and (min-height: $bp-xs) {
+		position: fixed;
 		transition: background-color $duration-sm;
 	}
 }

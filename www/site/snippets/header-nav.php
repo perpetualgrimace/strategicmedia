@@ -1,4 +1,4 @@
-<div class="header-nav dark-theme">
+<div class="header-nav<? if($page->heroImg() != NULL && $page->heroImg() != '') { echo ' dark-theme is-transparent'; } ?>">
 	<nav class="header-nav-inner g-container">
 
 		<a class="header-nav-logo" href="<?= $site->url() ?>">

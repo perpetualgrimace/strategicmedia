@@ -3,3 +3,7 @@ Title: About us
 ----
 
 Text: 
+
+----
+
+heroImg: about-hero.jpg

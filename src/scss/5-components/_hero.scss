@@ -1,4 +1,4 @@
-.hero {
+.hero.dark-theme {
 	text-shadow: 
 		0 0.125em 0.75em $shadow-dark,
 		0 0.5em 6em $shadow;
@@ -8,8 +8,13 @@
 .hero-inner {
 	align-items: center;
 	z-index: 2;
-	padding-top: $gutter * 2;
-	padding-bottom: $gutter * 2;
+	padding-top: $gutter * 10;
+	padding-bottom: $gutter * 4;
+	min-height: 50vh;
+
+	@media (min-width: $bp-xs) {
+		padding-top: $gutter * 7.25;
+	}
 }
 
 .hero-subhead {
@@ -22,14 +27,12 @@
   object-fit: cover;
 }
 
-.home-hero .hero-inner {
-	min-height: 60vh;
-	padding-bottom: $gutter * 5;
+.hero-img {
+	object-position: 50% 25%;
+}
 
-	@media (min-width: $bp-sm) and (min-height: $bp-xs) {
-		min-height: 80vh;
-		padding-bottom: $gutter * 2;
-	}
+.home-hero .hero-inner {
+	min-height: 80vh;
 }
 
 .home-hero:after {
