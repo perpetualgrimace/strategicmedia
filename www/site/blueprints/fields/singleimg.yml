@@ -1,0 +1,4 @@
+label: Select image...
+type: files
+query: page.images
+multiple: false

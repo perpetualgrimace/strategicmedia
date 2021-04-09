@@ -1,0 +1,16 @@
+title: Home
+icon: home
+status: unlisted
+options:
+  changeStatus: false
+
+sections:
+  fields:
+    fields:
+      blocks:
+        type: blocks
+        fieldsets:
+          - heading
+          - image
+          - text
+          textImg: blocks/textImg

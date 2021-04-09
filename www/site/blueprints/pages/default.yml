@@ -1,5 +1,5 @@
 title: Default Page
-icon: 📝
+icon: page
 preset: page
 
 status:
@@ -7,8 +7,7 @@ status:
   unlisted: Hidden
   draft: true
 
-pages:
-  template: default
+pages: false
 
 fields:
   text:

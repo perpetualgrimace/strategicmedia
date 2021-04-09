@@ -1,0 +1,18 @@
+name: Text + Image
+icon: image
+tabs:
+  content:
+    label: Content
+    fields:
+      text: fields/markdown
+      img: fields/singleimg
+  settings:
+    label: Settings
+    fields:
+      orientation:
+        label: Orientation
+        type: radio
+        options:
+          default: "Text left, image right"
+          flipped: "Image left, text right"
+        default: default

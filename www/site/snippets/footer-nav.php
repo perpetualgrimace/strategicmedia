@@ -1,8 +1,7 @@
 <?
 
 // main menu items
-$items = $pages->not('home')->not('error')->not('pdfs');
-$items->prepend($site->homePage());
+$items = $pages->not('error')->not('pdfs');
 
 ?>
 
