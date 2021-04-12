@@ -65,3 +65,8 @@ br {
 		display: none;
 	}
 }
+
+// margins
+p + p {
+	margin-top: 0.875em;
+}

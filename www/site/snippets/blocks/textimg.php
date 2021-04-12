@@ -5,7 +5,7 @@
 				<h2 class="textimg-heading u-margin-bottom"><?= $block->heading() ?></h2>
 			<? endif ?>
 
-			<? e($block->text()->kt(), $block->text(), 'no text') ?>
+			<? e($block->text(), $block->text()->kt(), 'no text') ?>
 		</figcaption>
 
 		<div class="textimg-img g-col g-6">
