@@ -1,0 +1,62 @@
+Title: 🎠 Clients carousel
+
+----
+
+Headline: Select clients
+
+----
+
+Images:
+
+- 
+  img:
+    - time.jpg
+  alt: Time Magazine
+- 
+  img:
+    - national-geographic.jpg
+  alt: National Geographic
+- 
+  img:
+    - washington-post.jpg
+  alt: The Washington Post
+- 
+  img:
+    - vonage.jpg
+  alt: Vonage
+- 
+  img:
+    - conde-nast.jpg
+  alt: Condé Nast
+- 
+  img:
+    - daily-candy.jpg
+  alt: Daily Candy
+- 
+  img:
+    - facebook.jpg
+  alt: Facebook
+- 
+  img:
+    - meredith.jpg
+  alt: Meredith
+- 
+  img:
+    - efax.jpg
+  alt: eFax
+- 
+  img:
+    - disney.jpg
+  alt: Disney Publishing Worldwide
+- 
+  img:
+    - hearst.jpg
+  alt: Hearst Magazines
+- 
+  img:
+    - rodale.jpg
+  alt: Rodale
+
+----
+
+Text: 

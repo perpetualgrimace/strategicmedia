@@ -1,7 +1,7 @@
 <?
 
 // main menu items
-$items = $pages->not('error')->not('pdfs');
+$items = $pages->not('error')->not('pdfs')->notTemplate(['img-carousel', 'testimonial-carousel']);
 
 ?>
 

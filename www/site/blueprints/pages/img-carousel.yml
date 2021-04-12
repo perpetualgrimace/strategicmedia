@@ -1,0 +1,19 @@
+title: Image carousel
+icon: layers
+preset: page
+options:
+  changeStatus: false
+status: unlisted
+pages: false
+
+fields:
+  headline:
+    type: text
+  images:
+    label: Images
+    type: structure
+    fields:
+      img: fields/singleimg
+      alt:
+        label: Alt text
+        type: text
