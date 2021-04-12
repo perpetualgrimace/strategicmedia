@@ -1,0 +1,42 @@
+title: Testimonial carousel
+icon: quote
+preset: page
+files: false
+options:
+  changeStatus: false
+status: unlisted
+pages: false
+
+fields:
+  headline:
+    type: text
+  testimonials:
+    label: Testimonials
+    type: structure
+    columns:
+      quote:
+        width: 1/2
+      quotee:
+        width: 1/6
+      position:
+        width: 1/6
+      company:
+        width: 1/6
+    fields:
+      quote:
+        label: Quote text
+        type: textarea
+        size: small
+        buttons: false
+      quotee:
+        label: Quotee name
+        type: text
+        width: 1/3
+      position:
+        label: Job title
+        type: text
+        width: 1/3
+      company:
+        label: Company name
+        type: text
+        width: 1/3

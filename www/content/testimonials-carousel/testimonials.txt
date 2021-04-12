@@ -1,0 +1,32 @@
+Title: 🎠 Testimonials carousel
+
+----
+
+Headline: What people are saying
+
+----
+
+Testimonials:
+
+- 
+  quote: >
+    By getting us into Groupon in 2010, Strategic Media was able to deliver a truly innovative geo-targeted program that did great things for our business.
+  quotee: Patricia Key
+  position: Consumer Marketing Manager
+  company: The Washington Post
+- 
+  quote: >
+    Strategic Media is known as an innovator in the industry. We work with them to find the best high-affinity partnerships. They also source retail upsell programs that are very profitable for both Hearst and for the retailers matched with our titles.
+  quotee: Liberta Abbondante
+  position: SVP, Consumer Marketing
+  company: Hearst Magazines
+- 
+  quote: >
+    Strategic Media’s programs are well-executed, and the audiences we are able to reach align perfectly with our brands.
+  quotee: Tracy Pelt
+  position: Group New Business Manager, Consumer Marketing
+  company: National Geographic Society
+
+----
+
+Text: 
