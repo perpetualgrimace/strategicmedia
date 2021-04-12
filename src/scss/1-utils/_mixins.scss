@@ -142,6 +142,15 @@
 	}
 }
 
+@mixin button-gradient {
+	background-image: linear-gradient(to top, 
+		$cinnabar   0%, 
+		$flame     33.333%, 
+		$flame     66.666%, 
+		$tangerine 100%
+	);
+}
+
 
 ////////////////////////////////
 // shadow
