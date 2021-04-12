@@ -2,6 +2,10 @@
 	min-height: 24rem;
 	height: 50vh;
 	overflow: hidden;
+
+	&:before {
+		display: none !important;
+	}
 }
 
 .bgimg-img {

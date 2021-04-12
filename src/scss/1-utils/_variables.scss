@@ -24,8 +24,9 @@ $dark-3  : #181C25;
 $black   : #101319;
 
 // shadow
-$shadow      : rgba($black, 0.333);
-$shadow-dark : rgba($black, 0.75);
+$shadow-light : rgba($dark-2, 0.125);
+$shadow       : rgba($black, 0.333);
+$shadow-dark  : rgba($black, 0.75);
 
 // ui colors
 $success-color : #3DDC97;

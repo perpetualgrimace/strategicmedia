@@ -1,11 +1,27 @@
 [class*="block"].is-behind {
 	@include block-padding;
 
-	&:before {
+	&:before, &:after {
 		@include pseudo;
 		@include fullwidth;
+	}
+
+	// bg color
+	&:before {
 		@include absolute-expand;
 		width: auto; /* override absolute-expand */
 		background-color: $light-1;
+	}
+
+	// "shadow"
+	&:after {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		width: auto;
+		height: 1rem;
+		background: linear-gradient(to bottom, $shadow-light, transparent);
+		z-index: 1;
 	}
 }
