@@ -15,3 +15,4 @@ sections:
           - text
           textImg: blocks/textImg
           bgImg: blocks/bgimg
+          imgCarousel: blocks/imgCarousel

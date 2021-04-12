@@ -6,55 +6,43 @@ Headline: Select clients
 
 ----
 
-Images:
+Carousel:
 
 - 
-  img:
-    - time.jpg
+  src: clients-carousel/time.jpg
   alt: Time Magazine
 - 
-  img:
-    - national-geographic.jpg
+  src: clients-carousel/national-geographic.jpg
   alt: National Geographic
 - 
-  img:
-    - washington-post.jpg
+  src: clients-carousel/washington-post.jpg
   alt: The Washington Post
 - 
-  img:
-    - vonage.jpg
+  src: clients-carousel/vonage.jpg
   alt: Vonage
 - 
-  img:
-    - conde-nast.jpg
+  src: clients-carousel/conde-nast.jpg
   alt: Condé Nast
 - 
-  img:
-    - daily-candy.jpg
+  src: clients-carousel/daily-candy.jpg
   alt: Daily Candy
 - 
-  img:
-    - facebook.jpg
+  src: clients-carousel/facebook.jpg
   alt: Facebook
 - 
-  img:
-    - meredith.jpg
+  src: clients-carousel/meredith.jpg
   alt: Meredith
 - 
-  img:
-    - efax.jpg
+  src: clients-carousel/efax.jpg
   alt: eFax
 - 
-  img:
-    - disney.jpg
+  src: clients-carousel/disney.jpg
   alt: Disney Publishing Worldwide
 - 
-  img:
-    - hearst.jpg
+  src: clients-carousel/hearst.jpg
   alt: Hearst Magazines
 - 
-  img:
-    - rodale.jpg
+  src: clients-carousel/rodale.jpg
   alt: Rodale
 
 ----

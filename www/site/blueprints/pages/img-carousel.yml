@@ -9,11 +9,15 @@ pages: false
 fields:
   headline:
     type: text
-  images:
+  carousel:
     label: Images
     type: structure
     fields:
-      img: fields/singleimg
+      src:
+        label: Select image...
+        type: select
+        options: query
+        query: page.images
       alt:
         label: Alt text
         type: text

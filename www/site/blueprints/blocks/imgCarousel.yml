@@ -1,0 +1,21 @@
+name: Image carousel
+icon: image
+tabs:
+  content:
+    label: Content
+    fields:
+      carousel:
+        label: Select image carousel
+        type: select
+        options: query
+        query: site.children.template("img-carousel")
+  settings:
+    label: Settings
+    fields:
+      layout:
+        label: Layout
+        type: radio
+        options:
+          grid: "Grid"
+          carousel: "Carousel"
+        default: grid
