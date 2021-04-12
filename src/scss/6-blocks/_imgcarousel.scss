@@ -1,0 +1,25 @@
+.imgcarousel-block {
+	@include block-padding;
+}
+
+.imgcarousel-heading {
+	width: 100%; /* needed for centering */
+}
+
+.imgcarousel-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.imgcarousel-item {
+	display: flex;
+	padding: $gutter;
+	flex: 1 0 220px;
+}
+
+.imgcarousel-img {
+	margin: auto;
+	color: $dark-1;
+	text-align: center;
+	height: auto;
+}

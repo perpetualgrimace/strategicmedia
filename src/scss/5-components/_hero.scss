@@ -41,13 +41,3 @@
 	z-index: 1;
 	background-image: radial-gradient($shadow, $shadow-dark);
 }
-
-.hero-divider {
-	width: 100%;
-	height: 8px;
-	background: $brand-color;
-
-	svg {
-		@include absolute-expand;
-	}
-}

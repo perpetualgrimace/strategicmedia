@@ -9,7 +9,7 @@
 		</figcaption>
 
 		<div class="textimg-img g-col g-6">
-			<?= $block->img()->toFile() ?>
+			<img src="<?= $block->img()->toFile()->url() ?>" alt="" draggable="false" loading="lazy">
 		</div>
 	</figure>
 <? endif ?>
