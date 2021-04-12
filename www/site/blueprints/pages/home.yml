@@ -15,4 +15,5 @@ sections:
           - text
           textImg: blocks/textImg
           bgImg: blocks/bgimg
+          testimonials: blocks/testimonials
           imgCarousel: blocks/imgCarousel
