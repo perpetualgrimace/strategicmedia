@@ -56,6 +56,10 @@ nav a {
 }
 
 @media (min-width: $bp-xs) {
+	.header-nav-inner.g-container {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
 	.header-nav-list {
 		transform: translateY(4px); // fudge baseline
 	}
@@ -90,7 +94,9 @@ nav a {
 	}
 
 	@media (min-width: $bp-sm) and (min-height: $bp-xs) {
-		position: fixed;
-		transition: background-color $duration-sm;
+		html:not(.no-js) {
+			position: fixed;
+			transition: background-color $duration-sm;
+		}
 	}
 }
