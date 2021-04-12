@@ -1,0 +1,11 @@
+[class*="block"].is-behind {
+	@include block-padding;
+
+	&:before {
+		@include pseudo;
+		@include fullwidth;
+		@include absolute-expand;
+		width: auto; /* override absolute-expand */
+		background-color: $light-1;
+	}
+}

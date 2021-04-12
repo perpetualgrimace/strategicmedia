@@ -1,21 +1,22 @@
 name: Testimonials
 icon: quote
-tabs:
-  content:
-    label: Content
-    fields:
-      testimonials:
-        label: Select testimonial list
-        type: select
-        options: query
-        query: site.children.template("testimonials")
-  settings:
-    label: Settings
-    fields:
-      layout:
-        label: Layout
-        type: radio
-        options:
-          grid: "Grid"
-          carousel: "Carousel"
-        default: grid
+fields:
+  testimonials:
+    label: Select testimonial list
+    type: select
+    options: query
+    query: site.children.template("testimonials")
+  placement:
+    label: Placement
+    type: radio
+    options:
+      inFront: "In front"
+      behind: "Behind"
+    default: inFront
+  layout:
+    label: Layout
+    type: radio
+    options:
+      grid: "Grid"
+      carousel: "Carousel"
+    default: grid

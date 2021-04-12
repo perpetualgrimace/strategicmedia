@@ -114,6 +114,11 @@
 	overflow: hidden;
 }
 
+@mixin block-padding {
+	padding-top: $gutter * 3;
+	padding-bottom: $gutter * 3;
+}
+
 
 ////////////////////////////////
 // background images
