@@ -1,19 +1,17 @@
+<? snippet('divider') ?>
+
+
 <footer class="footer dark-theme">
   <div class="g-container">
     
     <!-- navigation -->
-    <div class="footer-nav g-col">
+    <div class="footer-nav g-col u-margin-bottom-md">
       <? snippet('footer-nav') ?>
     </div>
 
-    <!-- copyright -->
-    <div class="footer-copyright g-col">
-      <? snippet('footer-copyright') ?>
-    </div>
-
-    <!-- social -->
-    <div class="footer-contact g-col">
-      <? snippet('footer-contact') ?>
+    <!-- copyright & social -->
+    <div class="footer-bottom g-col">
+      <? snippet('footer-bottom') ?>
     </div>
 
   </div>
