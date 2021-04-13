@@ -16,4 +16,4 @@ sections:
           textImg: blocks/textImg
           bgImg: blocks/bgimg
           testimonials: blocks/testimonials
-          imgCarousel: blocks/imgCarousel
+          logogrid: blocks/logogrid

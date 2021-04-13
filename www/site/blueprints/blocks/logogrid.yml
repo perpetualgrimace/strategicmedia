@@ -1,11 +1,11 @@
-name: Testimonials
-icon: quote
+name: Logo grid
+icon: layers
 fields:
-  testimonials:
-    label: Select testimonial list
+  logogrid:
+    label: Select logo grid
     type: select
     options: query
-    query: site.children.template("testimonials")
+    query: site.children.template("logogrid")
   placement:
     label: Block placement
     type: radio

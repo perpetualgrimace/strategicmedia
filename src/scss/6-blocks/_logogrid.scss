@@ -1,23 +1,23 @@
-.imgcarousel-block {
+.logogrid-block {
 	@include block-padding;
 }
 
-.imgcarousel-heading {
+.logogrid-heading {
 	width: 100%; /* needed for centering */
 }
 
-.imgcarousel-list {
+.logogrid-list {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.imgcarousel-item {
+.logogrid-item {
 	display: flex;
 	padding: $gutter;
 	flex: 1 0 220px;
 }
 
-.imgcarousel-img {
+.logogrid-img {
 	margin: auto;
 	color: $dark-1;
 	text-align: center;

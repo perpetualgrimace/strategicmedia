@@ -1,4 +1,4 @@
-title: Image carousel
+title: Logo grid
 icon: layers
 preset: page
 options:
@@ -9,7 +9,7 @@ pages: false
 fields:
   headline:
     type: text
-  carousel:
+  logogrid:
     label: Images
     type: structure
     fields:

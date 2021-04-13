@@ -1,0 +1,50 @@
+Title: Client logos
+
+----
+
+Headline: Select clients
+
+----
+
+Logogrid:
+
+- 
+  src: clients-grid/time.jpg
+  alt: Time Magazine
+- 
+  src: clients-grid/national-geographic.jpg
+  alt: National Geographic
+- 
+  src: clients-grid/washington-post.jpg
+  alt: The Washington Post
+- 
+  src: clients-grid/vonage.jpg
+  alt: Vonage
+- 
+  src: clients-grid/conde-nast.jpg
+  alt: Condé Nast
+- 
+  src: clients-grid/daily-candy.jpg
+  alt: Daily Candy
+- 
+  src: clients-grid/facebook.jpg
+  alt: Facebook
+- 
+  src: clients-grid/meredith.jpg
+  alt: Meredith
+- 
+  src: clients-grid/efax.jpg
+  alt: eFax
+- 
+  src: clients-grid/disney.jpg
+  alt: Disney Publishing Worldwide
+- 
+  src: clients-grid/hearst.jpg
+  alt: Hearst Magazines
+- 
+  src: clients-grid/rodale.jpg
+  alt: Rodale
+
+----
+
+Text: 
