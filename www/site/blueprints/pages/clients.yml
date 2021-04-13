@@ -1,0 +1,43 @@
+title: Clients
+icon: book
+preset: page
+pages: false
+status:
+  listed: Visible
+  unlisted: Hidden
+  draft: true
+
+fields:
+  hero: fields/hero
+  text:
+    label: Sidebar text
+    type: textarea
+    size: small
+    buttons: false
+  categories:
+    label: Magazine categories
+    type: structure
+    columns:
+      category:
+        width: 1/4
+      magazines:
+        width: 3/4
+    fields:
+      category: 
+        label: Category title
+        type: text
+      magazines:
+        label: Magazines
+        type: files
+        query: page.images
+        limit: 100
+  blocks:
+    type: blocks
+    fieldsets:
+      - heading
+      - image
+      - text
+      textImg: blocks/textImg
+      bgImg: blocks/bgimg
+      testimonials: blocks/testimonials
+      logogrid: blocks/logogrid

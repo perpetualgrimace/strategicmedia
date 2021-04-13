@@ -2,8 +2,252 @@ Title: Clients
 
 ----
 
-Text: 
+Headline: Find and engage your audience
 
 ----
 
-heroImg: clients-hero.jpg
+Subhead: 
+
+----
+
+Heroimg: clients/clients-hero.jpg
+
+----
+
+Text: If you’ve heard of them, we’ve probably worked with them. Over the years, we’ve built partnerships with hundreds of publications, from Time and Popular Science to Wine Spectator and Yoga Journal. We know these magazines, and we know their audiences.
+
+----
+
+Categories:
+
+- 
+  category: All
+  magazines:
+    - All-Recipes1.jpg
+    - Allure-BT_1013.jpg
+    - American-Girl-Sep.jpg
+    - Architectural-Digest_0714.jpg
+    - BA_0114.jpg
+    - BICYCLING-0314_NEWS.jpg
+    - Backpacker-BPK-1405-Jun.jpg
+    - Best-Nylon-image004-7.jpg
+    - Better-Homes-and-Gardens.jpg
+    - Bloomberg-bbw_42814_dom-newsstand.jpg
+    - COS-JAN-14.jpg
+    - Car-and-Driver-CDB-JULY-2014.jpg
+    - Clean-Eating.jpg
+    - Conde-Nast-Traveler-TV_1113_noupc.jpg
+    - >
+      Cooks-Illustrated-Aug-2014-Cooks-Illustrated.jpg
+    - Country-Living-CLG-JULY-AUG-2014.jpg
+    - Cricket-0714CKT_web600x750.jpg
+    - Diabetic-Living.jpg
+    - Disney-Junior.jpg
+    - Disney-Princess2.jpg
+    - Dwell-DWE0814_CVR_-RGB_HR.jpg
+    - ELLE-DECOR-JUNE-2014.jpg
+    - ELLE-JUNE-2014.jpg
+    - Eating-Well2.jpg
+    - Esquire-ESQ-AUGUST-2014.jpg
+    - Essence-ESSE_20140701_Cvr1_961236_C1.jpg
+    - Everyday-with-Rachael-Ray.jpg
+    - FIELD-STREAM-S0614P_MK1.jpg
+    - FOOD-NETWORK-JULY-AUG-2014.jpg
+    - Family-Circle.jpg
+    - Family-Handyman.jpg
+    - FamilyFun-JunJul2014.jpg
+    - Fast-Co-June-2014.jpg
+    - Fitness.jpg
+    - Food-Network2.jpg
+    - Food-Wine-Mar-2013_Julia-Child.jpg
+    - Food-Wine.jpg
+    - Forbes072114.jpg
+    - GQ-2013-11-07-14_02_41-GQ.jpg
+    - Gluten-Free.jpg
+    - Golf-GF_20140801_C1_975615_C1.jpg
+    - Good-Housekeeping-JULY-2014.jpg
+    - HARPERS-BAZAAR-JUNE-JULY-2014.jpg
+    - Highlights-hl-1212.jpg
+    - House-Beautiful.jpg
+    - Kiwi.jpg
+    - Marie-Claire.jpg
+    - Martha-Stewart.jpg
+    - Maxim-2014.05-1.jpg
+    - Mens-Health-0414_NEWS.jpg
+    - Money-MO_Make-More-2014.jpg
+    - More-JulAug2014.jpg
+    - Nat-Geo-BEST-NGM2013_JAN-1.jpg
+    - Nat-Geo-Kids.jpg
+    - Nat-Geo-Little-Kids.jpg
+    - New-York-Magazine-jim-parsons.jpg
+    - OPRAH-JULY-2014.jpg
+    - Outside-May-1.jpg
+    - Oxygen.jpg
+    - Parents1.jpg
+    - People-M.-McConaughey.jpg
+    - Popular-Mechanics-POP-JUNE-2014-1.jpg
+    - Popular-Science0514P_MK1.jpg
+    - Ranger-Rick-Jr.jpg
+    - Ranger-Rick.jpg
+    - Readers-Digest.jpg
+    - Real-Simple.jpg
+    - Redbook.jpg
+    - Road-and-Track-ROA-JULY-2014.jpg
+    - Runners-World-0314_NEWS.jpg
+    - Saveur.jpg
+    - Self-2013-11-07-14_03_53.jpg
+    - Seventeen-AUG-2014.jpg
+    - Sports-Illustrated_LA-Dodgers.jpg
+    - Taste-of-Home.jpg
+    - The-Economist-2-23-13-3-1-13.jpg
+    - The-New-Yorker_01_20_14.jpg
+    - Traditional-Home.jpg
+    - Travel-Leisure-June-2013.jpg
+    - VTAprMay_13.jpg
+    - Vogue_9-13.jpg
+    - Wine-Spectator0630145.jpg
+    - Womens-Health0514_NEWS1.jpg
+    - Yoga-Journal.jpg
+    - golf-digest_0613_cvr.jpg
+    - Girls-Life-GLCoverAS14.jpg
+    - Sofia.jpg
+    - Atlantic-2013_10_The-Atlantic.jpg
+    - afar-af0514_cover_rgb.jpg
+- 
+  category: 'Food & cooking'
+  magazines:
+    - Food-Wine.jpg
+    - Food-Wine-Mar-2013_Julia-Child.jpg
+    - FOOD-NETWORK-JULY-AUG-2014.jpg
+    - Food-Network2.jpg
+    - Gluten-Free.jpg
+    - Clean-Eating.jpg
+    - Eating-Well2.jpg
+    - All-Recipes1.jpg
+    - Diabetic-Living.jpg
+    - >
+      Cooks-Illustrated-Aug-2014-Cooks-Illustrated.jpg
+    - VTAprMay_13.jpg
+    - Martha-Stewart.jpg
+    - Wine-Spectator0630145.jpg
+    - Good-Housekeeping-JULY-2014.jpg
+    - Saveur.jpg
+    - BA_0114.jpg
+    - Taste-of-Home.jpg
+- 
+  category: Home
+  magazines:
+    - Better-Homes-and-Gardens.jpg
+    - Taste-of-Home.jpg
+    - Traditional-Home.jpg
+    - House-Beautiful.jpg
+    - Good-Housekeeping-JULY-2014.jpg
+    - Readers-Digest.jpg
+    - Architectural-Digest_0714.jpg
+    - Country-Living-CLG-JULY-AUG-2014.jpg
+    - Dwell-DWE0814_CVR_-RGB_HR.jpg
+    - Martha-Stewart.jpg
+    - ELLE-DECOR-JUNE-2014.jpg
+- 
+  category: 'Kids, teen & family'
+  magazines:
+    - Nat-Geo-Kids.jpg
+    - Nat-Geo-Little-Kids.jpg
+    - Seventeen-AUG-2014.jpg
+    - Family-Circle.jpg
+    - FamilyFun-JunJul2014.jpg
+    - Family-Handyman.jpg
+    - American-Girl-Sep.jpg
+    - Highlights-hl-1212.jpg
+    - Ranger-Rick-Jr.jpg
+    - Ranger-Rick.jpg
+    - Parents1.jpg
+    - Cricket-0714CKT_web600x750.jpg
+    - Disney-Junior.jpg
+    - Disney-Princess2.jpg
+    - Sofia.jpg
+    - Girls-Life-GLCoverAS14.jpg
+- 
+  category: Men
+  magazines:
+    - Mens-Health-0414_NEWS.jpg
+    - GQ-2013-11-07-14_02_41-GQ.jpg
+    - Family-Handyman.jpg
+    - Forbes072114.jpg
+    - Golf-GF_20140801_C1_975615_C1.jpg
+    - golf-digest_0613_cvr.jpg
+    - Popular-Mechanics-POP-JUNE-2014-1.jpg
+    - Popular-Science0514P_MK1.jpg
+    - Road-and-Track-ROA-JULY-2014.jpg
+    - Bloomberg-bbw_42814_dom-newsstand.jpg
+    - Car-and-Driver-CDB-JULY-2014.jpg
+    - Esquire-ESQ-AUGUST-2014.jpg
+    - Maxim-2014.05-1.jpg
+    - Runners-World-0314_NEWS.jpg
+    - Fast-Co-June-2014.jpg
+    - BICYCLING-0314_NEWS.jpg
+    - FIELD-STREAM-S0614P_MK1.jpg
+- 
+  category: 'News & business'
+  magazines:
+    - Forbes072114.jpg
+    - Bloomberg-bbw_42814_dom-newsstand.jpg
+    - The-Economist-2-23-13-3-1-13.jpg
+    - The-New-Yorker_01_20_14.jpg
+    - Fast-Co-June-2014.jpg
+    - Atlantic-2013_10_The-Atlantic.jpg
+- 
+  category: 'Sports & fitness'
+  magazines:
+    - Gluten-Free.jpg
+    - Golf-GF_20140801_C1_975615_C1.jpg
+    - golf-digest_0613_cvr.jpg
+    - Oxygen.jpg
+    - Backpacker-BPK-1405-Jun.jpg
+    - Eating-Well2.jpg
+    - Clean-Eating.jpg
+    - Mens-Health-0414_NEWS.jpg
+    - Womens-Health0514_NEWS1.jpg
+    - Outside-May-1.jpg
+    - Sports-Illustrated_LA-Dodgers.jpg
+    - Runners-World-0314_NEWS.jpg
+    - BICYCLING-0314_NEWS.jpg
+    - Self-2013-11-07-14_03_53.jpg
+    - FIELD-STREAM-S0614P_MK1.jpg
+    - Fitness.jpg
+    - Yoga-Journal.jpg
+- 
+  category: Travel
+  magazines:
+    - Nat-Geo-BEST-NGM2013_JAN-1.jpg
+    - Backpacker-BPK-1405-Jun.jpg
+    - Conde-Nast-Traveler-TV_1113_noupc.jpg
+    - Travel-Leisure-June-2013.jpg
+    - afar-af0514_cover_rgb.jpg
+- 
+  category: Women
+  magazines:
+    - Kiwi.jpg
+    - Family-Circle.jpg
+    - More-JulAug2014.jpg
+    - Allure-BT_1013.jpg
+    - Good-Housekeeping-JULY-2014.jpg
+    - HARPERS-BAZAAR-JUNE-JULY-2014.jpg
+    - Best-Nylon-image004-7.jpg
+    - Seventeen-AUG-2014.jpg
+    - Real-Simple.jpg
+    - People-M.-McConaughey.jpg
+    - OPRAH-JULY-2014.jpg
+    - Redbook.jpg
+    - Womens-Health0514_NEWS1.jpg
+    - Self-2013-11-07-14_03_53.jpg
+    - Vogue_9-13.jpg
+    - Essence-ESSE_20140701_Cvr1_961236_C1.jpg
+    - COS-JAN-14.jpg
+    - ELLE-JUNE-2014.jpg
+    - Better-Homes-and-Gardens.jpg
+    - Fitness.jpg
+
+----
+
+Blocks: [{"content":{"testimonials":"testimonials","placement":"behind"},"id":"e1be6596-a19f-421e-b3b0-582166a5c8c9","isHidden":false,"type":"testimonials"},{"content":{"logogrid":"clients-grid","placement":"inFront"},"id":"4d08cdc7-1109-4304-b55a-bb59e4c5d3df","isHidden":false,"type":"logogrid"}]
