@@ -24,15 +24,7 @@
 ?>
 
 <? if($categories != NULL): ?>
-	<ul class="tag-list">
-		<? foreach ($categories as $tag): ?>
-			<li class="tag-item">
-				<a href="#<?= sanitize($tag->category()) ?>">
-					<?= $tag->category() ?>
-				</a>
-			</li>
-		<? endforeach ?>
-	</ul>
+	<? snippet('tag-list', ['categories' => $categories]) ?>
 
 	<div class="magazine-outer">
 		<ul class="magazine-list">
