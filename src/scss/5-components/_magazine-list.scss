@@ -1,0 +1,8 @@
+.magazine-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.magazine-item.is-hidden {
+	display: none;
+}
