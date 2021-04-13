@@ -1,0 +1,14 @@
+type: group
+fields:
+	Headline:
+		type: text
+	Subhead:
+	  label: Subhead (optional)
+	  type: textarea
+	  size: small
+	  buttons: false
+	heroImg:
+	  label: Hero image
+	  type: select
+	  options: query
+	  query: page.images

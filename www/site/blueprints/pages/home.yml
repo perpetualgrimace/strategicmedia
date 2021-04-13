@@ -4,16 +4,28 @@ status: unlisted
 options:
   changeStatus: false
 
-sections:
-  fields:
+fields:
+  hero: 
+    extends: fields/hero
     fields:
-      blocks:
-        type: blocks
-        fieldsets:
-          - heading
-          - image
-          - text
-          textImg: blocks/textImg
-          bgImg: blocks/bgimg
-          testimonials: blocks/testimonials
-          logogrid: blocks/logogrid
+      heroImg:
+        label: Preview image
+        help: Shown while video loads in
+        width: 1/2
+      heroVideo:
+        label: Hero video
+        type: select
+        options: query
+        query: page.videos
+        help: All videos with the same file name (minus extension) will be used
+        width: 1/2
+  blocks:
+    type: blocks
+    fieldsets:
+      - heading
+      - image
+      - text
+      textImg: blocks/textImg
+      bgImg: blocks/bgimg
+      testimonials: blocks/testimonials
+      logogrid: blocks/logogrid

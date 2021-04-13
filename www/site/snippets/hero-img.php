@@ -2,11 +2,17 @@
 	$video = $page->heroVideo();
 	$img = $page->heroImg();
 
+	function stripVideoName($path) {
+		$strippedExtension = str_replace(['.mp4', '.ogv', '.webm'], '', $path);
+		$strippedPath = explode('/', $strippedExtension);
+		return $strippedPath[1];
+	}
+
 	if ($page->isHomePage() && $video != NULL):
 ?>
 
 	<video class="hero-video" playsinline autoplay muted loop poster="<?= image($img)->url() ?>">
-		<? foreach($page->videos()->filterBy('filename', "*=", $video) as $video): ?>
+		<? foreach($page->videos()->filterBy('filename', '*=', stripVideoName($video)) as $video): ?>
 		  <source src="<?= $video->url() ?>" type="<?= $video->mime() ?>">
 	  <? endforeach ?>
 	</video>
