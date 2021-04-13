@@ -8,6 +8,10 @@
 	padding-bottom: $gutter/2;
 }
 
+.testimonials-heading {
+	width: 100%; /* needed for centering */
+}
+
 .testimonials-item {
 	@include box-shadow-lg($shadow-light);
 	flex: 1 1 14rem;

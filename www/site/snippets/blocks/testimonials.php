@@ -4,7 +4,7 @@
 
 <? if($testimonials != NULL): ?>
 	<div class="testimonials-block g-container<? e($block->placement() == "behind", " is-behind", "") ?>">
-		<h2 class="testimonials-heading u-margin-bottom-md"><?= $testimonials->headline() ?></h2>
+		<h2 class="testimonials-heading u-margin-bottom-md u-center"><?= $testimonials->headline() ?></h2>
 		<ul class="testimonials-list g-col">
 			<? foreach ($testimonials->testimonials()->toStructure() as $quote): ?>
 				<li class="testimonials-item">
