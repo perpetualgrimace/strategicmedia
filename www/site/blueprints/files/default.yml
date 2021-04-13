@@ -1,0 +1,7 @@
+title: Default file
+
+fields:
+  alt:
+    label: Alt text
+    type: text
+    autofocus: true
