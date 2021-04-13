@@ -1,8 +1,46 @@
 .magazine-list {
-	display: flex;
-	flex-wrap: wrap;
+	@include block-padding;
+	column-width: 8rem;
+	column-gap: $gutter;
 }
 
-.magazine-item.is-hidden {
-	display: none;
+.magazine-item {
+	@include box-shadow-lg;
+	margin-bottom: $gutter;
+	transition: 
+		opacity $duration-sm, 
+		transform $duration-sm;
+
+	&:not(.is-hidden) {
+		animation: popIn $duration-md;
+	}
+
+	&.is-hidden {
+		opacity: 0;
+		transform: scale(0.75) translateY(20px) rotate(14deg);
+	}
+	&:nth-child(2n).is-hidden {
+		transform: scale(0.75) translateY(20px) rotate(-2deg);	
+	}
+	&:nth-child(3n).is-hidden {
+		transform: scale(0.75) translateY(20px) rotate(-22deg);	
+	}
+
+	&:nth-child(1n) { background-color: $safety; }
+	&:nth-child(2n) { background-color: $honey; }
+	&:nth-child(3n) { background-color: $tangerine; }
+	&:nth-child(4n) { background-color: $flame; }
+	&:nth-child(5n) { background-color: $cinnabar; }
+
+	&:before {
+		@include pseudo;
+		@include absolute-expand;
+		@include gloss-gradient;
+		z-index: 1;
+	}
+}
+
+.magazine-img {
+	height: auto;
+	color: $black;
 }

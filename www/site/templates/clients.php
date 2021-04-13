@@ -4,7 +4,7 @@
 	<? snippet('hero') ?>
 
 	<? snippet('main-open') ?>
-		<? snippet('magazine-list') ?>
+		<? snippet('clients-layout') ?>
 		<?= $page->blocks()->toBlocks() ?>
 	<? snippet('main-close') ?>
 <? snippet('body-close') ?>

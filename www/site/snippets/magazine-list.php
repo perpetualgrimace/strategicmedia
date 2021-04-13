@@ -26,16 +26,13 @@
 <? if($categories != NULL): ?>
 	<? snippet('tag-list', ['categories' => $categories]) ?>
 
-	<div class="magazine-outer">
-		<ul class="magazine-list">
-			<? foreach($allMagazines as $magazine): ?>
-				<li class="magazine-item is-hidden" data-category="<?= matchCategories($categories, $magazine) ?>">
-					<img class="magazine-img" src="<?= $magazine->url() ?>" alt="<?= $magazine->alt() ?>" draggable="false" loading="lazy" width="225" height="<?= $magazine->height() / 2 ?>">
-				</li>
-			<? endforeach ?>
-		</ul>
-		
-	</div>
+	<ul class="magazine-list">
+		<? foreach($allMagazines as $magazine): ?>
+			<li class="magazine-item is-hidden" data-category="<?= matchCategories($categories, $magazine) ?>">
+				<img class="magazine-img" src="<?= $magazine->url() ?>" alt="<?= $magazine->alt() ?>" draggable="false" loading="lazy" width="225" height="<?= $magazine->height() / 2 ?>">
+			</li>
+		<? endforeach ?>
+	</ul>
 <? endif ?>
 
 
@@ -43,14 +40,26 @@
 
 	function filterMags(category) {
 		var allMagazines = document.querySelectorAll('.magazine-item');
-		Array.from(allMagazines).map(li => li.className = 'magazine-item is-hidden')
+		Array.from(allMagazines).map(li => {
+			li.className = 'magazine-item is-hidden';
+
+			setTimeout(function() {
+				li.style.display = 'none';
+			}, 300);
+		});
 
 		var matches = document.querySelectorAll(`.magazine-item[data-category*=${category}]`);
-		Array.from(matches).map(li => li.className = 'magazine-item');
+		Array.from(matches).map(li => {
+			li.className = 'magazine-item';
+
+			setTimeout(function() {
+				li.style.display = 'block';
+			}, 300);
+		});
 	}
 
 	// on load
-	document.addEventListener('DOMContentLoaded', (event) => {
+	document.addEventListener('DOMContentLoaded', function(event) {
     var category = 'all';
 
     if (location.hash) {
