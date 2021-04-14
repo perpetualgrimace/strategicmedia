@@ -10,6 +10,7 @@
 
 .bgimg-img {
 	@include absolute-expand;
+	position: fixed;
 	object-fit: cover;
 	object-position: center;
 	z-index: -1;

@@ -1,4 +1,4 @@
-[class*="block"].is-behind {
+main > [class*="block"].is-behind {
 	@include block-padding;
 
 	&:before, &:after {
@@ -23,6 +23,16 @@
 		height: 1rem;
 		background: linear-gradient(to bottom, $shadow-light, transparent);
 		z-index: 1;
+	}
+}
+
+main > [class*="block"]:not(.is-behind) {
+	&:before {
+		@include pseudo;
+		@include fullwidth;
+		@include absolute-expand;
+		width: auto; /* override absolute-expand */
+		background-color: $white;
 	}
 }
 

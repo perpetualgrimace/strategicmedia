@@ -7,6 +7,7 @@
 	padding: 0.375em 1em 0.5em 1em;
 	text-decoration: none;
 	overflow: hidden;
+	z-index: 1;
 
 	&:before {
 		@include pseudo;
