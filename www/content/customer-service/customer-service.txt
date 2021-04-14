@@ -2,4 +2,395 @@ Title: Customer service
 
 ----
 
-Text: 
+Col1:
+
+## General enquiries
+Have a question? Please use the (link: #customer-service-form text: contact form)
+
+## Cancellation requests
+Need to cancel your magazine subscription? Please complete our (link: #customer-service-form text: contact form)
+
+----
+
+Col2:
+
+## Change of address requests
+
+To change the delivery address on your magazine subscription, please contact the magazine publisher directly.
+
+The phone number or online customer service website address is typically located on the masthead of the magazine. Please be sure to have your magazine label available for reference.
+
+----
+
+Col3:
+
+## Contact us
+
+### Write to us
+Strategic Media, LLC
+P.O. Box 251-H
+Scarsdale, New York 10583
+
+### Call us
+877-266-6555
+
+### Customer Service Hours
+Monday – Friday
+8:00am – 5:00pm PST
+
+----
+
+Text:
+
+## Contact form
+
+In order for us to provide superior customer service, please fill out the following form completely:
+
+----
+
+Fb-form-settings: true
+
+----
+
+Fb-form-id: customer-service-form
+
+----
+
+Fb-form-class: customer-service-form g-container
+
+----
+
+Fb-usediv: true
+
+----
+
+Fb-builder:
+
+- 
+  field_name: firstname
+  field_class: g-col g-6 is-required
+  req: 'true'
+  field_label: First name
+  placeholder: ""
+  default: ""
+  min: null
+  max: null
+  pattern: ""
+  _key: fb_text
+  _uid: fb_text_1618434010609_137
+- 
+  field_name: lastname
+  field_class: g-col g-6 is-required
+  req: 'true'
+  field_label: Last name
+  placeholder: ""
+  default: ""
+  min: null
+  max: null
+  pattern: ""
+  _key: fb_text
+  uniquekey: 0
+  showpreviewinitially: false
+  expandedinitially: false
+  activefieldsetinitially: content
+  _uid: fb_text_1618434086750_530
+- 
+  field_name: email
+  field_class: g-col g-6 is-required
+  req: 'true'
+  field_label: Email address
+  placeholder: ""
+  default: ""
+  min: null
+  max: null
+  pattern: ""
+  _key: fb_email
+  _uid: fb_email_1618434199452_137
+- 
+  field_name: magazine-title
+  field_class: g-col g-6 is-required
+  req: 'true'
+  field_label: Magazine title
+  placeholder: ""
+  default: ""
+  min: null
+  max: null
+  pattern: ""
+  _key: fb_text
+  uniquekey: 0
+  showpreviewinitially: false
+  expandedinitially: false
+  activefieldsetinitially: content
+  _uid: fb_text_1618434279498_1153
+- 
+  field_name: textarea
+  field_class: g-col is-required
+  req: 'true'
+  field_label: How can we help you?
+  placeholder: ""
+  default: ""
+  min: null
+  max: null
+  rows: 4
+  _key: fb_textarea
+  _uid: fb_textarea_1618434230075_137
+- 
+  field_name: address-1
+  field_class: g-col g-6
+  req: 'false'
+  field_label: Address line 1
+  placeholder: ""
+  default: ""
+  min: null
+  max: null
+  pattern: ""
+  _key: fb_text
+  uniquekey: 1
+  showpreviewinitially: false
+  expandedinitially: false
+  activefieldsetinitially: content
+  _uid: fb_text_1618434829218_1251
+- 
+  field_name: address-2
+  field_class: g-col g-6
+  req: 'false'
+  field_label: Address line 2
+  placeholder: ""
+  default: ""
+  min: null
+  max: null
+  pattern: ""
+  _key: fb_text
+  uniquekey: 0
+  showpreviewinitially: false
+  expandedinitially: false
+  activefieldsetinitially: content
+  _uid: fb_text_1618434895928_1215
+- 
+  field_name: city
+  field_class: g-col g-6
+  req: 'false'
+  field_label: City
+  placeholder: ""
+  default: ""
+  min: null
+  max: null
+  pattern: ""
+  _key: fb_text
+  uniquekey: 0
+  showpreviewinitially: false
+  expandedinitially: false
+  activefieldsetinitially: content
+  _uid: fb_text_1618434923794_1355
+- 
+  field_name: state
+  field_class: g-col g-3
+  req: 'false'
+  field_label: State
+  placeholder: ""
+  default: ""
+  min: null
+  max: null
+  pattern: ""
+  _key: fb_text
+  uniquekey: 0
+  showpreviewinitially: false
+  expandedinitially: false
+  activefieldsetinitially: content
+  _uid: fb_text_1618434950805_1553
+- 
+  field_name: zip
+  field_class: g-col g-3
+  req: 'false'
+  field_label: Zip code
+  placeholder: ""
+  default: ""
+  min: null
+  max: null
+  pattern: ""
+  _key: fb_text
+  uniquekey: 0
+  showpreviewinitially: false
+  expandedinitially: false
+  activefieldsetinitially: content
+  _uid: fb_text_1618434975096_1635
+- 
+  field_name: ravioli
+  _key: fb_honeypot
+  _uid: fb_honeypot_1618436409097_137
+- 
+  field_name: gift
+  field_class: g-col
+  field_label: This is a gift
+  default: ""
+  checked: 'false'
+  _key: fb_checkbox
+  _uid: fb_checkbox_1618436554346_137
+- 
+  field_name: ship-to-address-1
+  field_class: g-col g-6 ship-to
+  req: 'false'
+  field_label: Ship to address line 1
+  placeholder: ""
+  default: ""
+  min: null
+  max: null
+  pattern: ""
+  _key: fb_text
+  uniquekey: 1
+  showpreviewinitially: false
+  expandedinitially: false
+  activefieldsetinitially: content
+  _uid: fb_text_1618434829218_1251
+- 
+  field_name: ship-to-address-2
+  field_class: g-col g-6 ship-to
+  req: 'false'
+  field_label: Ship to address line 2
+  placeholder: ""
+  default: ""
+  min: null
+  max: null
+  pattern: ""
+  _key: fb_text
+  uniquekey: 0
+  showpreviewinitially: false
+  expandedinitially: false
+  activefieldsetinitially: content
+  _uid: fb_text_1618434895928_1215
+- 
+  field_name: ship-to-city
+  field_class: g-col g-6 ship-to
+  req: 'false'
+  field_label: Ship to city
+  placeholder: ""
+  default: ""
+  min: null
+  max: null
+  pattern: ""
+  _key: fb_text
+  uniquekey: 0
+  showpreviewinitially: false
+  expandedinitially: false
+  activefieldsetinitially: content
+  _uid: fb_text_1618434923794_1355
+- 
+  field_name: ship-to-state
+  field_class: g-col g-3 ship-to
+  req: 'false'
+  field_label: Ship to state
+  placeholder: ""
+  default: ""
+  min: null
+  max: null
+  pattern: ""
+  _key: fb_text
+  uniquekey: 0
+  showpreviewinitially: false
+  expandedinitially: false
+  activefieldsetinitially: content
+  _uid: fb_text_1618434950805_1553
+- 
+  field_name: ship-to-zip
+  field_class: g-col g-3 ship-to
+  req: 'false'
+  field_label: Ship to zip code
+  placeholder: ""
+  default: ""
+  min: null
+  max: null
+  pattern: ""
+  _key: fb_text
+  uniquekey: 0
+  showpreviewinitially: false
+  expandedinitially: false
+  activefieldsetinitially: content
+  _uid: fb_text_1618434975096_1635
+
+----
+
+Fb-submit-label: 
+
+----
+
+Fb-cancel-label: 
+
+----
+
+Fb-formbtns-class: g-col u-margin-top-md
+
+----
+
+Fb-captcha: false
+
+----
+
+Fb-captcha-theme: false
+
+----
+
+Fb-captcha-secretkey: 
+
+----
+
+Fb-captcha-sitekey: 
+
+----
+
+Fb-is-ajax: false
+
+----
+
+Fb-msg-position: false
+
+----
+
+Fb-success-page: 
+
+----
+
+Fb-error-page: 
+
+----
+
+Fb-success-msg: 
+
+----
+
+Fb-error-msg: 
+
+----
+
+Fb-send-email: true
+
+----
+
+Fb-email-recipient: hello@jamesferrell.me
+
+----
+
+Fb-email-sender-type: true
+
+----
+
+Fb-email-sender: 
+
+----
+
+Fb-email-sender-field: 
+
+----
+
+Fb-email-subject: Message from the strategicmediallc.com web form
+
+----
+
+Fb-save-submissions: false
+
+----
+
+Fb-key-field: 
+
+----
+
+Fb-received-submissions: 

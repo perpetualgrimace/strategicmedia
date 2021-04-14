@@ -27,7 +27,8 @@ em, i {
 // heading
 .heading,
 h1, h2, h3, h4, h5, h6,
-nav a {
+nav a,
+label {
 	@include display-font;
 	letter-spacing: normal;
 	text-transform: uppercase;
@@ -36,7 +37,7 @@ nav a {
 }
 
 // subhead
-button, input[type='button'], label,
+button, input[type='button'],
 .subhead {
 	@include subhead-font;
 	text-transform: uppercase;
@@ -55,10 +56,10 @@ h1 {
 		font-size: $font-xxxl;
 	}
 }
-h2                   { font-size : $font-xl; }
-h3, p, li            { font-size : $font-md; }
-h4, figcaption       { font-size : $font-sm; }
-h5, h6, small, label { font-size : $font-xs; }
+h2                    { font-size : $font-xl; }
+h3, p, li             { font-size : $font-md; }
+h4, figcaption, label { font-size : $font-sm; }
+h5, h6, small         { font-size : $font-xs; }
 
 br {
 	@media (max-width: $bp-sm) {
@@ -67,6 +68,25 @@ br {
 }
 
 // margins
+.content * + p {
+	margin-top: 0.5em;
+}
+
+.content h2:not(:first-child) {
+	margin-top: $gutter * 2;
+}
+
+.content h2 + h3 {
+	margin-top: 0.625rem;
+}
+
+.content p + h3 {
+	margin-top: $gutter * 0.5;
+}
+
+.content br {
+	margin: 0;
+}
 p + p {
 	margin-top: 0.875em;
 }

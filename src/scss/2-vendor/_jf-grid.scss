@@ -42,5 +42,10 @@ html {
         width: calc(#{ $i * (100% / $column-count) } - #{$grid-padding});
       }
     }
+
+    // TODO: investigate why this hack is needed
+    &.g-3 {
+      width: calc(25% - #{$grid-padding * 1.5});
+    }
   }
 }

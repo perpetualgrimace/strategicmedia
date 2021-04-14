@@ -1,0 +1,35 @@
+title: Customer Service
+icon: chat
+pages: false
+status:
+  listed: Visible
+  unlisted: Hidden
+  draft: true
+
+tabs:
+  content:
+    label: Text content
+    icon: text
+    fields:
+      col1:
+        type: textarea
+        width: 1/3
+        size: large
+      col2:
+        type: textarea
+        width: 1/3
+        size: large
+      col3:
+        type: textarea
+        width: 1/3
+        size: large
+      text:
+        label: Contact form intro
+        type: textarea
+        size: small
+  form:
+    label: Form config
+    icon: edit
+    sections:
+      contactform:
+        extends: formbuilder

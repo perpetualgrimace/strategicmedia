@@ -1,49 +1,72 @@
+form > .g-col {
+  margin-bottom: $gutter * 1.5;
+
+  &.is-hidden {
+    display: none;
+  }
+}
+form > .is-required label:after {
+  content: '*';
+  color: $brand-color;
+}
+
 label {
-  color: $gray;
+  color: $dark-2;
+  transition: color $duration-xs;
+  padding-bottom: $gutter/2;
+  display: block;
 }
 
 // fields and textareas
 input,
 textarea {
   padding: 0.25em 0.5em 0.5em 0.5em;
-  background-color: $light-1;
-  border: $border-width solid $brand-color;
-  border-radius: $radius-sm;
+  background-color: $white;
+  border: 1px solid $light-3;
+  transition: 
+    border-color $duration-xs,
+    background-color $duration-xs;
 
   &:hover {
-    border-color: $brand-light;
+    border-color: $tangerine;
     background-color: $white;
   }
   &:focus {
-    @include box-shadow-lg;
-    border-color: $tangerine;
+    @include box-shadow-lg($light-1);
+    border-color: $flame;
     background-color: $white;
     outline: none;
   }
-
-  @include dark-mode {
-    background-color: $dark-3;
-    border-color: $black;
-
-    &:hover {
-      border-color: $brand-light;
-      background-color: $dark-3;
-    }
-    &:focus {
-      @include box-shadow-lg;
-      border-color: $brand-color;
-      background-color: $black;
-    }
-  }
 }
 
-.field:hover label,
-.field:focus-within label {
-  color: $brand-light;
+// interactions
+form > .g-col:hover label {
+  color: $tangerine;
+  &:after { color: currentColor; }
 }
+form > .g-col:focus-within label {
+  color: $flame;
+  &:after { color: currentColor; }
+}
+
 
 // textarea
 textarea {
   min-height: 8rem;
   max-height: 18rem;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+
+  & + label {
+    display: inline-block;
+  }
+}
+
+
+// real button
+form button {
+  width: 100%;
 }

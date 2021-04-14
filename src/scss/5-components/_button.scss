@@ -1,4 +1,4 @@
-.button {
+button, .button {
 	@include display-font;
 	text-transform: uppercase;
 	letter-spacing: 0.0375em;
