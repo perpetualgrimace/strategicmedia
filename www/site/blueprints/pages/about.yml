@@ -1,0 +1,22 @@
+title: About
+icon: page
+preset: page
+pages: false
+status:
+  listed: Visible
+  unlisted: Hidden
+  draft: true
+
+fields:
+  hero: fields/hero
+  text:
+    type: textarea
+    size: medium
+    width: 2/3
+  logos:
+    label: logos
+    type: blocks
+    fieldsets:
+      logogrid: blocks/logogrid
+    max: 1
+    width: 1/3

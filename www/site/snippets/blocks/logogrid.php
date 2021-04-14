@@ -5,7 +5,9 @@
 
 <? if($images != NULL): ?>
 	<div class="logogrid-block g-container">
-		<h2 class="logogrid-heading u-center u-margin-bottom-md"><?= $logogrid->headline() ?></h2>
+		<? if($logogrid->headline() != ''): ?>
+			<h2 class="logogrid-heading u-center u-margin-bottom-md"><?= $logogrid->headline() ?></h2>
+		<? endif ?>
 		<ul class="logogrid-list g-col">
 			<? foreach ($images->toStructure() as $img): ?>
 				<li class="logogrid-item">

@@ -1,13 +1,14 @@
 title: Logo grid
 icon: layers
 preset: page
-options:
-  changeStatus: false
-status: unlisted
+status: 
+  unlisted: active
+  draft: inactive
 pages: false
 
 fields:
   headline:
+    label: Headline (optional)
     type: text
   logogrid:
     label: Images

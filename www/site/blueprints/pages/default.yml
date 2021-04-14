@@ -1,4 +1,4 @@
-title: Default Page
+title: Default
 icon: page
 preset: page
 pages: false
@@ -11,4 +11,4 @@ fields:
   hero: fields/hero
   text:
     type: textarea
-    size: huge
+    size: large

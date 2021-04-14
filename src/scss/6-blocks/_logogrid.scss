@@ -23,3 +23,25 @@
 	text-align: center;
 	height: auto;
 }
+
+
+// layout overrides for nested block
+.g-3 .logogrid-block {
+	padding: 0;
+
+	.logogrid-item {
+		max-width: 100%;
+	}
+
+	@media (max-width: $bp-sm - 0.001) {
+		margin-top: $gutter * 2;
+
+		.logogrid-item {
+			flex-basis: 100px;
+		}
+	}
+
+	@media (min-width: $bp-sm) {
+		margin-top: -$gutter/2;
+	}
+}

@@ -1,0 +1,16 @@
+Title: About logos
+
+----
+
+Headline: 
+
+----
+
+Logogrid:
+
+- 
+  src: about-logos/aam-grayscale.png
+  alt: Alliance for Audited Media
+- 
+  src: about-logos/mcma-grayscale-2.png
+  alt: 'The Media & Content Marketing Association'

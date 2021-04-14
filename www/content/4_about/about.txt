@@ -2,8 +2,26 @@ Title: About us
 
 ----
 
-Text: 
+Headline: The original partner-marketing resource
 
 ----
 
-heroImg: about-hero.jpg
+Subhead: 
+
+----
+
+Heroimg: about/about-hero.jpg
+
+----
+
+Text:
+
+Marti Schiff pioneered partner marketing back in the early 1990s, and has been leading the team at Strategic Media since its founding in 2001. Our team of industry experts has worked with hundreds of publications and delivered solutions for online retailers in every industry.
+
+Our goal is always to help you turn your ideal customer into a loyal customer. 
+
+(link: contact text: Let’s get started class: button)
+
+----
+
+Logos: [{"content":{"logogrid":"about-logos","placement":"inFront"},"id":"3ffe0a73-37cf-46ff-9988-35ad57d79970","isHidden":false,"type":"logogrid"}]

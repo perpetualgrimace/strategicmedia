@@ -2,4 +2,16 @@ Title: PDFs
 
 ----
 
-Text: Various PDFs here
+Headline: 
+
+----
+
+Subhead: 
+
+----
+
+Heroimg: 
+
+----
+
+Text: Store various PDFs here

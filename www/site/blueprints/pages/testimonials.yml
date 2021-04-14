@@ -1,10 +1,10 @@
 title: Testimonials
 icon: quote
 preset: page
+status: 
+  unlisted: active
+  draft: inactive
 files: false
-options:
-  changeStatus: false
-status: unlisted
 pages: false
 
 fields:

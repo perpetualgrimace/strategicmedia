@@ -3,4 +3,8 @@ title: Site
 sections:
   pages:
     type: pages
-    create: default
+    create: 
+      - default
+      - legal
+      - logogrid
+      - testimonials
