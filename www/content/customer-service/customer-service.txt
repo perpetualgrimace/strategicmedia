@@ -337,7 +337,7 @@ Fb-captcha-sitekey:
 
 ----
 
-Fb-is-ajax: false
+Fb-is-ajax: true
 
 ----
 
@@ -353,11 +353,11 @@ Fb-error-page:
 
 ----
 
-Fb-success-msg: 
+Fb-success-msg: ## Message sent! We’ll be back to you as soon as possible.
 
 ----
 
-Fb-error-msg: 
+Fb-error-msg: ## Our apologies — something went wrong
 
 ----
 

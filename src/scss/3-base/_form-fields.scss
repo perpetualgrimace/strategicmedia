@@ -70,3 +70,30 @@ input[type="checkbox"] {
 form button {
   width: 100%;
 }
+
+[class='messagebox'] {
+  display: none;
+}
+
+.messagebox:not([hidden]) {
+  padding: $gutter * 3;
+  width: 100%;
+  margin-top: $gutter * 2;
+  margin-bottom: $gutter * 2;
+  border: 2px solid $brand-color;
+  background-color: $brand-color;
+  pointer-events: none;
+  animation: fadeIn $duration-sm;
+
+  @media (min-width: $bp-sm) {
+    text-align: center;
+  }
+
+  * {
+    color: $white !important;
+  }
+
+  * + * {
+    margin-top: $gutter;
+  }
+}

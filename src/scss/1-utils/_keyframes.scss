@@ -5,3 +5,10 @@
 		transform: scale(0);
 	}
 }
+
+@keyframes fadeIn {
+	from {
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+}
