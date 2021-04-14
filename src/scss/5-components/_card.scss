@@ -1,0 +1,41 @@
+.card {
+	@include box-shadow-lg($shadow-light);
+	padding: $gutter;
+	background-color: $white;
+
+	@media (max-width: $bp-xxs - 0.001) {
+		.card-img {
+			width: 100%;
+			margin-bottom: $gutter;
+		}
+	}
+
+	@media (min-width: $bp-xxs) {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+
+		.card-img-wrapper {
+			flex: 1 1 10.125rem;
+			margin-top: 0.25rem;
+		}
+
+		.card-caption {
+			padding: 0 $gutter;
+			flex: 1 1 calc(100% - 10.125rem);
+		}
+	}
+}
+
+.card-heading + .card-subhead {
+	margin-top: $gutter / 4;
+}
+
+.card-img-wrapper {
+	background-color: $tangerine;
+}
+
+.card-text {
+	letter-spacing: 0;
+}

@@ -14,9 +14,33 @@ fields:
     size: medium
     width: 2/3
   logos:
-    label: logos
+    label: Logos
     type: blocks
     fieldsets:
       logogrid: blocks/logogrid
     max: 1
     width: 1/3
+  teamHeading:
+    label: Team heading
+    type: text
+  team:
+    label: Team
+    type: structure
+    fields:
+      name:
+        label: Full name
+        type: text
+        width: 1/2
+      position:
+        label: Job title
+        type: text
+        width: 1/2
+      img:
+        label: Image
+        type: select
+        options: query
+        query: page.images
+      bio:
+        label: Bio
+        type: textarea
+          

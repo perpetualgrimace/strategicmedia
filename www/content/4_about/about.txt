@@ -25,3 +25,17 @@ Our goal is always to help you turn your ideal customer into a loyal customer.
 ----
 
 Logos: [{"content":{"logogrid":"about-logos","placement":"inFront"},"id":"3ffe0a73-37cf-46ff-9988-35ad57d79970","isHidden":false,"type":"logogrid"}]
+
+----
+
+Teamheading: Our team
+
+----
+
+Team:
+
+- 
+  name: Marti Schiff
+  position: President
+  img: about/marti-2.png
+  bio: 'Partner marketing wouldn’t exist without Marti Schiff. Her creativity and commitment to finding better solutions has bolstered and invigorated companies across the publishing world. At Time Inc., she spearheaded the Best Buy and Ticketmaster upsell programs. At Synapse, a Time Inc. subsidiary, she developed the Amazon Magazine Store and invented the tools that convert frequent flyer point to magazine subscriptions. Today, she leads the team of experienced professionals at Strategic Media and remains committed to reimagining what publishing can be. Magazines that speak to Marti include: Elle Décor, InStyle, Bon Appetit, Saveur, Modern Farmer, and Luxe.'
