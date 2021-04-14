@@ -12,7 +12,7 @@
 		<h2 class="about-bio-heading g-col u-left-center">
 			<?= $page->teamHeading() ?>
 		</h2>
-		<ul class="g-col">
+		<ul class="g-col card-list">
 			<? foreach($page->team()->toStructure() as $member): ?>
 				<? snippet('card', [
 					'title' => $member->name(),

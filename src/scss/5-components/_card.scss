@@ -39,3 +39,7 @@
 .card-text {
 	letter-spacing: 0;
 }
+
+.card + .card {
+	margin-top: $gutter;
+}
