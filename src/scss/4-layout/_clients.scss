@@ -1,0 +1,20 @@
+.clients-intro {
+	margin: $gutter*3 0;
+}
+
+.clients .tag-list {
+	width: calc(100% + 1rem);
+	padding-top: $gutter;
+	padding-bottom: $gutter;
+	margin-left: -0.5rem;
+	margin-right: -0.5rem;
+	position: sticky;
+	top: 0;
+	background-color: $white;
+	z-index: 2;
+
+
+	@media (min-width: $bp-md) {
+		justify-content: space-between;	
+	}
+}

@@ -69,6 +69,7 @@ hr {
 ::selection {
 	color: $white;
 	background: rgba($brand-light, 0.9);
+	text-shadow: none;
 }
 img::selection {
 	background: rgba($brand-light, 0.5);

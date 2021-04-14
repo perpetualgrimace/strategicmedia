@@ -1,5 +1,5 @@
 .magazine-list {
-	@include block-padding;
+	padding-bottom: $gutter * 3;
 	column-width: 8rem;
 	column-gap: $gutter;
 }

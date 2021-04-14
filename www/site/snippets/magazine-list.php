@@ -39,8 +39,15 @@
 <script>
 
 	function filterMags(category) {
-		var allMagazines = document.querySelectorAll('.magazine-item');
-		Array.from(allMagazines).map(li => {
+
+		// reset all
+		var allTags = Array.from(document.querySelectorAll('.tag-link'));
+		allTags.map(a => {
+			a.className = 'tag-link heading u-font-sm';
+		});
+
+		var allMagazines = Array.from(document.querySelectorAll('.magazine-item'));
+		allMagazines.map(li => {
 			li.className = 'magazine-item is-hidden';
 
 			setTimeout(function() {
@@ -48,8 +55,12 @@
 			}, 300);
 		});
 
-		var matches = document.querySelectorAll(`.magazine-item[data-category*=${category}]`);
-		Array.from(matches).map(li => {
+		// toggle on
+		var currTag = document.querySelector('.tag-link[href*=' + category);
+		currTag.className = 'tag-link is-selected heading u-font-sm';
+
+		var matches = Array.from(document.querySelectorAll('.magazine-item[data-category*=' + category));
+		matches.map(li => {
 			li.className = 'magazine-item';
 
 			setTimeout(function() {

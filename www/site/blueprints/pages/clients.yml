@@ -9,8 +9,11 @@ status:
 
 fields:
   hero: fields/hero
+  introHeading:
+    label: Intro heading
+    type: text
   text:
-    label: Sidebar text
+    label: Intro text
     type: textarea
     size: small
     buttons: false

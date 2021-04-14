@@ -1,0 +1,36 @@
+.tag-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tag-link {
+	display: inline-block;
+	padding: 0.5em 0.5rem;
+	color: $gray;
+	text-decoration: none;
+	transition: color $duration-sm;
+
+	&:after {
+		@include pseudo;
+		position: absolute;
+		bottom: 0;
+		left: 30%;
+		right: 30%;
+		height: 2px;
+		background: $flame;
+		opacity: 0;
+		transform: scaleX(0);
+		transition: 
+			opacity $duration-sm,
+			transform $duration-sm;
+	}
+
+	&.is-selected {
+		color: $black;
+
+		&:after {
+			opacity: 1;
+			transform: none;
+		}
+	}
+}

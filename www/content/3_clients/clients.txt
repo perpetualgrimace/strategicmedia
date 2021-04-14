@@ -14,7 +14,11 @@ Heroimg: clients/clients-hero.jpg
 
 ----
 
-Text: If you’ve heard of them, we’ve probably worked with them. Over the years, we’ve built partnerships with hundreds of publications, from Time and Popular Science to Wine Spectator and Yoga Journal. We know these magazines, and we know their audiences.
+introHeading: If you’ve heard of them, we’ve probably worked with them
+
+----
+
+Text: Over the years, we’ve built partnerships with hundreds of publications, from Time and Popular Science to Wine Spectator and Yoga Journal. We know these magazines, and we know their audiences.
 
 ----
 

@@ -25,13 +25,14 @@
 // Components
 @import "scss/5-components/button";
 @import "scss/5-components/divider";
-@import "scss/5-components/nav";
 @import "scss/5-components/footer";
-@import "scss/5-components/magazine-list";
 @import "scss/5-components/hero";
+@import "scss/5-components/magazine-list";
+@import "scss/5-components/nav";
+@import "scss/5-components/tag-list";
 
 // Blocks
-@import "scss/6-blocks/textimg";
 @import "scss/6-blocks/bgimg";
-@import "scss/6-blocks/testimonials";
 @import "scss/6-blocks/logogrid";
+@import "scss/6-blocks/testimonials";
+@import "scss/6-blocks/textimg";
