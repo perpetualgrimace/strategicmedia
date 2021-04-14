@@ -3,7 +3,8 @@
     "core": "https://github.com/getkirby/kirby.git",
     "plugins": {
       "kirby3-static-site-generator": "https://github.com/d4l-data4life/kirby3-static-site-generator.git",
-      "kirby-minify-html": "https://github.com/afbora/kirby-minify-html.git"
+      "kirby-minify-html": "https://github.com/afbora/kirby-minify-html.git",
+      "kirby-builder": "https://github.com/TimOetting/kirby-builder.git"
     }
   }
 }

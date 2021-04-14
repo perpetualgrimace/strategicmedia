@@ -1,0 +1,22 @@
+{
+    "name": "kirbyzone/formbuilder",
+    "description": "Kirbyzone's Form Builder Plugin for Kirby",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "homepage": "https://gitlab.com/kirbyzone/formbuilder",
+    "authors": [
+        {
+            "name": "kirbyzone",
+            "email": "hello@kirby.zone",
+            "homepage": "https://kirby.zone"
+        }
+    ],
+    "support": {
+        "source": "https://gitlab.com/kirbyzone/formbuilder",
+        "issues": "https://gitlab.com/kirbyzone/formbuilder/issues",
+        "wiki": "https://gitlab.com/kirbyzone/formbuilder/wikis/home"
+    },
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    }
+}
