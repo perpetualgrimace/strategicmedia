@@ -65,18 +65,6 @@ nav a {
 	}
 }
 
-.header-nav:not(.dark-theme) {
-	background-color: $white;
-
-	nav a {
-		color: $dark-1;
-	}
-
-	.header-nav-logo-text {
-		color: $black;
-	}
-}
-
 .header-nav {
 	position: absolute;
 	top: 0;
@@ -93,9 +81,26 @@ nav a {
 	}
 
 	@media (min-width: $bp-sm) and (min-height: $bp-xs) {
-		html:not(.no-js) {
+		html:not(.no-js).is-big-enough & {
 			position: fixed;
 			transition: background-color $duration-sm;
+
+			&.is-fixed {
+				@include box-shadow-lg($shadow-light);
+			}
 		}
+	}
+}
+
+.header-nav:not(.dark-theme),
+.header-nav.is-fixed {
+	background-color: $white;
+
+	nav a {
+		color: $dark-1;
+	}
+
+	.header-nav-logo-text {
+		color: $black;
 	}
 }
