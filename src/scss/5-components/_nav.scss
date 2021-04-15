@@ -30,6 +30,7 @@ nav a {
 	padding-left: 10px;
 	font-size: 24px;
 	white-space: nowrap;
+	transition: color $duration-md;
 
 	.header-nav-llc {
 		font-size: 18px;
@@ -83,7 +84,7 @@ nav a {
 	@media (min-width: $bp-sm) and (min-height: $bp-xs) {
 		html:not(.no-js).is-big-enough & {
 			position: fixed;
-			transition: background-color $duration-sm;
+			transition: background-color $duration-md;
 
 			&.is-fixed {
 				@include box-shadow-lg($shadow-light);
