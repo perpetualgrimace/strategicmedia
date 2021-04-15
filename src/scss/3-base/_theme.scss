@@ -80,8 +80,3 @@ img::selection {
 	outline: $border-width solid rgba($brand-light, 0.5);
 	outline-offset: $border-width * 2;
 }
-
-// hide focus ring when not using keyboard
-:focus:not(:focus-visible) {
-	outline: none;
-}
