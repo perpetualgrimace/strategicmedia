@@ -1,0 +1,20 @@
+title: Contact
+icon: email
+preset: page
+pages: false
+files: false
+status:
+  listed: Visible
+  unlisted: Hidden
+  draft: true
+
+fields:
+  hero: fields/hero
+  col1:
+    type: textarea
+    width: 1/2
+    size: medium
+  col2:
+    type: textarea
+    width: 1/2
+    size: medium

@@ -2,4 +2,42 @@ Title: Contact
 
 ----
 
+Headline: Talk to us
+
+----
+
+Subhead: 
+
+----
+
+Heroimg: 
+
+----
+
+Col1:
+
+## Partnership opportunities
+Email: (email: partnerships@strategicmediallc.com)
+
+## Magazine & newspaper publishers
+Email: (email: contact@strategicmediallc.com)
+
+## Lead generation marketers
+Email: (email: contact@strategicmediallc.com)
+
+----
+
+Col2:
+
+## Media inquiries
+Email: (email: pr@strategicmediallc.com)
+
+## Careers
+Email: (email: careers@strategicmediallc.com)
+
+## Customer service
+Please visit the (link: customer-service text: customer service page)
+
+----
+
 Text: 
