@@ -1,0 +1,35 @@
+title: Services
+icon: 
+preset: page
+pages: false
+status:
+  listed: Visible
+  unlisted: Hidden
+  draft: true
+
+fields:
+  hero: fields/hero
+  text:
+    type: textarea
+    label: Intro text
+    size: medium
+  servicesHeading:
+    type: text
+    label: Services heading
+  services:
+    type: structure
+    label: Services
+    fields:
+      title:
+        label: Service name
+        type: text
+      icon:
+        label: icon
+        type: select
+        options:
+          - bullseye
+          - calendar
+          - credit-card
+          - eye
+          - gift
+

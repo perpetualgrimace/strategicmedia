@@ -2,4 +2,46 @@ Title: Services
 
 ----
 
-heroImg: services-hero.jpg
+Headline: The art and science of hooking customers who stick
+
+----
+
+Subhead: 
+
+----
+
+Heroimg: services/services-hero.jpg
+
+----
+
+Text:
+
+Every year, our partner-marketing programs put millions of magazine subscriptions in the hands of highly-engaged customers. These customers are more likely to renew their magazine subscriptions and develop stronger brand affinities for online retailers.
+
+How do we reach this audience? We start by using demographic targeting and our own industry expertise to match partners that complement each other. From there, we develop a strategy that maximizes customer growth and retention.
+
+With our fulfillment system, state-of-the-art voucher redemption site, and expert customer service, we’re able to deliver a smooth customer experience that builds loyalty for both the publisher and retailer.
+
+----
+
+Servicesheading: Our services include:
+
+----
+
+Services:
+
+- 
+  title: Gift with purchase programs
+  icon: gift
+- 
+  title: Rewards points programs
+  icon: credit-card
+- 
+  title: Sponsored magazine programs
+  icon: bullseye
+- 
+  title: Daily deal site management
+  icon: calendar
+- 
+  title: Magazine public place programs
+  icon: eye
