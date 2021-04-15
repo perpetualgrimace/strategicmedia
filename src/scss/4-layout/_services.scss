@@ -1,8 +1,50 @@
-// .about {
-// 	@include block-padding;
-// }
+.service-item {
+	@include box-shadow-lg($shadow-light);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: $gutter * 2;
+	background-color: $white;
+	margin-top: $gutter * 1.5;
 
-// .about-bio-heading {
-// 	margin-top: -$gutter;
-// 	margin-bottom: $gutter * 2;
-// }
+	@media (min-width: $bp-sm) {
+		&.g-6 {
+			width: calc(50% - #{$gutter * 0.75}); // TODO: investigate
+		}
+	}
+
+	// offset by 1 due to fake heading in ul
+	&:nth-child(2) { border-color: $safety; }
+	&:nth-child(3) { border-color: $honey; }
+	&:nth-child(4) { border-color: $tangerine; }
+	&:nth-child(5) { border-color: $flame; }
+	&:nth-child(6) { border-color: $cinnabar; }
+}
+
+// span
+.service-icon {
+	display: flex;
+	width: 4rem;
+	height: 4rem;
+	background-color: $light-1;
+	border-radius: 50%;
+
+	svg {
+		margin: auto;
+	}
+	path {
+		fill: $dark-2;
+	}
+}
+
+.service-title {
+	color: $black;
+}
+
+.service-item .divider {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 3px;
+}
