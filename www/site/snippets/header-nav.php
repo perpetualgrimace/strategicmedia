@@ -7,7 +7,7 @@
 
 		<ul class="header-nav-list"><? foreach ($site->children()->listed()->not('home') as $item): ?>
 			<li class="header-nav-item">
-				<a class="header-nav-link u-font-sm" href="<?= $item->slug() ?>">
+				<a class="header-nav-link u-font-sm" href="<?= $item->slug() ?>" <? e($item->isOpen(), 'aria-current ') ?>>
 					<?= $item->title()->html() ?>
 				</a>
 			</li>

@@ -92,15 +92,56 @@ nav a {
 	}
 }
 
+
+.header-nav-link[aria-current]:after {
+	@include pseudo;
+	position: absolute;
+	bottom: 0.7em;
+	left: 30%;
+	right: 30%;
+	height: 2px;
+	background: $flame;
+	animation: unsquishIn $duration-sm;
+}
+
+
 .header-nav:not(.dark-theme),
 .header-nav.is-fixed {
 	background-color: $white;
 
 	nav a {
 		color: $dark-1;
+
+		&:hover, &:focus {
+			color: $brand-light;
+		}
+
+		&[aria-current] {
+			color: $black;
+
+			&:after {
+				background-color: $brand-light;
+			}
+		}
 	}
 
 	.header-nav-logo-text {
 		color: $black;
+	}
+}
+
+.header-nav-link {
+	text-decoration: none;
+
+	&:hover, &:focus {
+		color: $tangerine;
+	}
+
+	&[aria-current] {
+		color: $white;
+
+		&:after {
+			background-color: $honey;
+		}
 	}
 }

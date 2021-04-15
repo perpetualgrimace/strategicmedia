@@ -8,13 +8,19 @@
 	padding-bottom: $gutter;
 	margin-left: -0.5rem;
 	margin-right: -0.5rem;
-	position: sticky;
-	top: 0;
 	background-color: $white;
-	z-index: 2;
 
+	@media (min-width: $bp-sm) {
+		position: sticky;
+		top: 0;
+		z-index: 2;
+
+		html.is-big-enough & {
+			top: 83px;
+		}
+	}
 
 	@media (min-width: $bp-md) {
-		justify-content: space-between;	
+		justify-content: space-between;
 	}
 }

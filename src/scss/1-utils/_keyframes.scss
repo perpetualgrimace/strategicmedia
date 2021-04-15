@@ -12,3 +12,10 @@
 		opacity: 0;
 	}
 }
+
+@keyframes unsquishIn {
+	from {
+		transform: scaleX(0);
+		opacity: 0;
+	}
+}
