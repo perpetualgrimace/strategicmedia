@@ -20,8 +20,8 @@
 	<? endif ?>
 
 	<? if($page->services()->toStructure() != ''): ?>
-		<? foreach($page->services()->toStructure() as $i => $service): ?>
-			<li class="service-item g-col g-<? e($i <= 2, '4', '6') ?>">
+		<? foreach($page->services()->toStructure() as $service): ?>
+			<li class="service-item g-col g-4">
 				<span class="service-icon u-margin-bottom-md">
 					<? snippet('icons/' . $service->icon() . '.svg') ?>
 				</span>
