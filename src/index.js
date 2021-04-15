@@ -28,8 +28,8 @@ window.onload = () => {
 	  var fade = (((hero.offsetHeight * 0.75) - window.pageYOffset) / (hero.offsetHeight * 0.75));
 	  var scale = (((hero.offsetHeight * 4) - window.pageYOffset) / (hero.offsetHeight * 4));
 
-	  heroText.style.opacity = fade;
-	  heroText.style.transform = `translateY(${window.pageYOffset / 2}px) scale(${scale})`;
+	  heroText.style.opacity = fade >= 0 ? fade : 1;
+	  heroText.style.transform = `translateY(${window.pageYOffset <= window.innerHeight ? window.pageYOffset / 2 : 0}px) scale(${scale >= 0 ? scale : 1})`;
 	}
 
 	// ready
