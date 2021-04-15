@@ -1,0 +1,22 @@
+title: Legal
+icon: road-sign
+preset: page
+pages: false
+files: false
+status:
+  listed: Visible
+  unlisted: Hidden
+  draft: true
+
+fields:
+  updated:
+    label: last updated
+    type: date
+    display: MM-DD-YYYY
+  text:
+    label: Intro text
+    type: textarea
+    size: medium
+  legal:
+    label: Main legal content
+    type: textarea

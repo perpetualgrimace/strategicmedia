@@ -2,4 +2,158 @@ Title: Privacy policy
 
 ----
 
-Text: 
+Updated: 2020-12-10
+
+----
+
+Text:
+
+Strategic Media, LLC (“Magazine Order Center”, “us”, “our” or “we”) has developed this Privacy Policy to explain who we are, how we collect, use and share personal information about you, and how you can exercise your privacy rights.
+
+This Privacy Policy describes how we collect and use personal information in the usual course of business, including through our websites found at www.magazineordercenter.com, www.strategicmediallc.com (and any sub-domains or other website which includes a link to this Privacy Policy) (collectively the “Sites”), as well as in connection with any of our magazine sales or marketing activities (“Services”). This Privacy Policy applies to your use of the Sites (however accessed and/or used, whether via personal computers, mobile devices or otherwise) or any other means or applications in which you connect with us and your use of our Services.
+
+This Privacy Policy is subject to our Terms of Use. Each time that you access, register and/or use the Sites or our Services you signify that you have read, understand, and agree to be bound by the Terms of Use, and this Privacy Policy. If you do not agree to the Terms of Use and this Privacy Policy, you must discontinue using the Sites or Services.
+
+## Quick links
+
+We recommend that you read this Privacy Policy in full to ensure you are fully informed. However, to make it easier for you to review those parts of this Privacy Policy which apply to you, we have divided up the document into the following sections:
+
+----
+
+Legal:
+
+## Who we are
+
+We are a US-based company that facilitates the sale of magazine subscriptions from magazine publishers through our marketing partners directly to you and as well as potentially other goods and services.
+
+## What information we collect
+
+### Information That You Provide To Us: 
+You may provide personal information when you sign up to redeem a voucher or otherwise use our Services, when you consult with customer support or send us an email or communicate with us in any way (for example, to make a support request) when you redeem a voucher and/or you make a purchase on our Site. Your personal information we collect may include: your contact information (such as your name, address, telephone number and email address) and if you make a purchase, payment details (card information, order information and transaction history). If you ever communicate directly with us, we may maintain a record of those communications and responses.
+
+### Location Information: 
+We collect information about your general location using different types of technologies. We also collect IP addresses and device identifiers that may provide location information.
+
+### Information We Collect Automatically Through Cookies And Similar Technologies: 
+When using our Sites, certain information is automatically collected by most browsers or through your device (such as your IP address, your operating system, your browser, mobile device information and information about how you interact with our Sites). Cookies are small text files placed on your device to store data that can be recalled by a web server in the domain that placed the cookie. We may make use of first or third party cookies (whether session or persistent cookies) and similar technologies, for such things as session management, for storing and honoring your preferences and settings, combating fraud, maintaining and monitoring the infrastructure of the Services, ensuring security protections, analyzing how our products perform and how you interact with our Sites and fulfilling other legitimate purposes as further described in this Privacy Policy.
+
+### Information We Collect From Other Sources: 
+We may obtain information about you from other sources, such as public address databases as well as our marketing partners to ensure that you have fulfilled the terms of any magazine subscription offer, for auditing purposes, or to facilitate any issues surrounding the fulfillment and servicing of your magazine subscription.
+
+## How we use your information
+
+- We use the information we collect or receive (alone or in combination):
+- To respond to your inquiries and fulfill your requests, such as information regarding your magazine subscription order.
+- To send administrative information to you, for example, information regarding the Sites and changes to our terms, conditions, and policies.
+- To send you marketing communications, including via email and SMS in compliance with applicable laws and in accordance with your preferences, that we believe may be of interest to you.
+- For our business purposes, such as data analysis, audits, fraud monitoring and prevention, developing new products, enhancing, improving or modifying our Sites and Services, identifying usage trends, determining the effectiveness of our promotional campaigns and operating and expanding our business activities.
+- As we believe to be necessary or appropriate: (a) under applicable law, including laws outside your country of residence; (b) to comply with legal process; (c) to respond to requests from public and government authorities including public and government authorities outside your country of residence; (d) to enforce our terms and conditions; (e) to protect our operations or those of our publishers or marketing partners; (f) to protect our rights, or the privacy, safety or property, of you or others; and (g) to allow us to pursue available legal remedies or limit the damages that we may sustain.
+
+## How we share your information
+
+We do not sell or share your personal information with third parties except as outlined below. We may disclose your personal information to the following categories of recipients:
+
+### Publishers (or other providers of goods or services you select to receive). 
+
+We will share your personal information with the publisher of the magazine you select or with the seller of other goods or services you might choose to receive. Those third parties’ use of your personal information will be subject to their respective privacy policies. We are not responsible for the privacy practices of third parties and we suggest you review the individual privacy policies of each to learn more about their privacy practices.
+
+### Payment Processors. 
+When you make a purchase with us, your billing information is collected and processed directly by our payment processor Stripe, Inc., through their checkout service. We never receive or store your full credit card information.
+
+### Marketing Partners. 
+
+We selectively share your personal information with the marketing partner which referred you to us, for instance through a qualified sale or after a voucher is redeemed. We are not responsible for the privacy practices of those third party marketing partners and we suggest you review the individual privacy policies of each such third party marketer to learn more about their privacy practices.
+
+### Circulation Audit. 
+
+In the event a third party magazine circulation auditor requests information to ensure the terms of any particular publisher’s offer were processed and fulfilled correctly, we may share details about the offer you accepted and the details of your order from the marketing partner with that third party auditor.
+
+### Service providers. 
+
+In order to provide our Services to you, it is necessary for us to disclose your information to service providers who perform certain functions of our Services on our behalf. Examples include cloud hosting providers (to provide data storage and processing services); communications providers (to process new queries and to manage our emails); and fulfillment providers (to send you your magazines or other goods or services).
+
+### Compliance with laws. 
+
+We may disclose information where we are legally required to do so in order to comply with applicable law, governmental requests, a judicial proceeding, court order, or other legal process (including in response to public authorities to meet national security or law enforcement requirements).
+
+### Vital interests and legal rights. 
+
+We may disclose information where we believe it is necessary to investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the safety of any person, violations of our Terms of Use or this Privacy Policy, or as evidence in litigation in legal proceedings.
+
+### Business transfers. 
+
+We may share or transfer information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company, provided that we inform the buyer it must use your personal information only for the purposes disclosed in this Privacy Policy.
+
+### Consent. 
+
+We may share your information with any other person with your consent to the disclosure.
+
+## Your data protection rights
+
+### Access to Information. 
+
+You can access, correct, update, delete, and deactivate personal information you have provide to us by emailing us at service@magazineordercenter.com or writing to us at Magazine Order Center, P.O. Box 251-H, Scarsdale, N.Y. 10583
+
+### Opting-Out of Marketing Emails. 
+
+You can opt out of receiving marketing emails from us by clicking the “unsubscribe” link in the email, by emailing service@magazineordercenter.com or writing to us at Magazine Order Center, P.O. Box 251-H, Scarsdale, N.Y. 10583. If you choose to no longer receive marketing information, we may still communicate with you regarding such things as your security updates, product functionality, responses to service requests, or other transactional, non-marketing purposes. Please note that changes may not be effective immediately, but we will endeavor to comply with your request as soon as reasonably possible.
+
+### Consent. 
+
+If we have collected and processed your personal information with your consent, then depending on the jurisdiction where you reside and applicable law you can withdraw your consent at any time. Withdrawing your consent will not affect the lawfulness of any processing we conducted prior to your withdrawal, nor will it affect processing of your personal information conducted in reliance on lawful processing grounds other than consent.
+
+### Turning Off Tracking Technologies. 
+
+You can choose to have your computer warn you each time a persistent or session cookie is being sent, or you can choose to turn off such cookies through your browser settings. Each browser is a little different, so look at your browser’s Help menu to learn the correct way to modify your cookies. It is important to remember that many of our Services may not function properly if your cookies are disabled. Please refer to our Cookie Notice for more information.
+
+### Browser “Do Not Track” Signals. 
+
+Some third-party browsers provide “do not track” machine readable signals for websites, which are automatically applied by default. These features are not all uniform. We do not currently respond to those signals. If you block cookies, certain features on our Sites or Services may not work. If you block or reject cookies, not all of the tracking described here will stop.
+
+### Control Tools on Your Mobile Devices. 
+
+There may be controls on your mobile devices such as the ability to turn off GPS locator and other privacy settings.
+
+## Nevada residents’ privacy rights
+
+A Notice to Nevada Residents: If you are a resident of Nevada, you may apply limits to the sale of certain personal information to third parties for resale or licensing purposes, subject to applicable law. You are entitled to register your preference for limits on such sales in the future by sending an email to (email: NevadaPrivacyRequest@magazineordercenter.com), with the subject line, “Nevada Do Not Sell Request” along with your first and last name, zip code, and whether you are a former or current member of any of our Services so that we can match your information to your account.
+
+## Third-party websites and apps
+
+This Privacy Policy only applies to our Sites and Services. Any access to and use of any linked websites or services is not governed by this Privacy Policy but instead is governed by the privacy policies of those third parties. We are not responsible for the information practices of such third parties.
+
+## How we keep your personal information secure
+
+We have implemented appropriate physical, technical and administrative safeguards against unauthorized access, use, modification and disclosure of personal information in our custody and control. However, no data transmission over the Internet, wireless transmission or electronic storage of information can be guaranteed to be 100% secure, so you should take care in deciding what information you send us in this way.
+
+## Retention of your personal information
+
+We retain your personal information to comply with applicable legal, tax, audit or accounting requirements, to enforce our agreements or comply with our legal obligations, or in accordance with our standard business practices).
+
+## International users
+
+The Sites and Service are provided and hosted in the United States. If you are using the Sites or Service from outside the United States, please be aware that your information may be transferred to, stored, and processed by us in our facilities and by other entities with whom we share your personal information, in the United States and other locations. These countries may have data protection laws that are different to the laws of your country where permitted by law.
+
+## Children’s information
+
+The Sites are intended for a general audience and are not directed or intended for anyone under 18 years of age. You must be 18 years of age or older to use the Sites or Services. Any information we receive from people we believe to be under this age will be purged from our database. We do not knowingly collect personal information from children under the age of 18. If we obtain actual knowledge that any information we collect has been provided by an individual under the age of 18, we will promptly delete that information.
+
+## Changes to the privacy policy
+
+Magazine Order Center will review and update this Privacy Policy periodically and will note the date of the last revision if any changes are made. If we make material changes to this Privacy Policy, we will notify you by prominently posting a notice of a new Privacy Policy update on our Site for a period of time in our discretion but we encourage you to review this Privacy Policy frequently to be informed of how Magazine Order Center is using your information.
+
+## Contacting us
+
+If you have any questions about this Privacy Policy, or the practices of the Sites or our Services please send your email queries to service@magazineordercenter.com or write to us at Magazine Order Center, P.O. Box 251-H, Scarsdale, N.Y. 10583.
+
+----
+
+Headline: Privacy policy
+
+----
+
+Subhead: 
+
+----
+
+Heroimg: 

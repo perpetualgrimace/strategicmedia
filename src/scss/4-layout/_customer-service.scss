@@ -3,3 +3,7 @@
 	h2 { font-size: $font-lg; }
 	h3 { font-size: $font-sm; }
 }
+
+.customer-service * + p {
+	margin-top: 0.5em;
+}
