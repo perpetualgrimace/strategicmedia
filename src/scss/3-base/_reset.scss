@@ -157,3 +157,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+////////////////////////////////
+// Accessibility
+////////////////////////////////
+
+@media (prefers-reduced-motion: reduce) {
+	* {
+		transition-duration: 0.01s !important;
+		animation-duration: 0.01s !important;
+	}
+}

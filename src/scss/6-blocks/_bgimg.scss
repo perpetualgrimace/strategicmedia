@@ -10,8 +10,12 @@
 
 .bgimg-img {
 	@include absolute-expand;
-	position: fixed;
 	object-fit: cover;
 	object-position: center;
 	z-index: -1;
+	position: fixed;
+
+	@media (prefers-reduced-motion: reduce) {
+		position: absolute;
+	}
 }
