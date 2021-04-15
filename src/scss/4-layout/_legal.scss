@@ -1,3 +1,17 @@
+.legal {
+	counter-reset: heading-counter;
+
+	h2:before {
+		content: counter(heading-counter)'.';
+		counter-increment: heading-counter;
+		color: $dark-2;
+		position: absolute;
+		left: -1.125em;
+		font-size: 0.625em;
+		bottom: 0.175em;
+	}
+}
+
 .legal h3 {
 	margin-top: 1em !important;
 
@@ -21,4 +35,3 @@
 		color: $brand-color;
 	}
 }
-

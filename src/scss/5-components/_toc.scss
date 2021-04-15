@@ -1,0 +1,9 @@
+.toc-item {
+	padding-left: 0.5em;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	html {
+		scroll-behavior: smooth;
+	}
+}
