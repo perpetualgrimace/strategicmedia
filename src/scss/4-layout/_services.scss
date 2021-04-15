@@ -6,13 +6,6 @@
 	padding: $gutter * 2;
 	background-color: $white;
 	margin-top: $gutter * 1.5;
-
-	// offset by 1 due to fake heading in ul
-	&:nth-child(2) { border-color: $safety; }
-	&:nth-child(3) { border-color: $honey; }
-	&:nth-child(4) { border-color: $tangerine; }
-	&:nth-child(5) { border-color: $flame; }
-	&:nth-child(6) { border-color: $cinnabar; }
 }
 
 // "make the boxes for the bottom two the same width as the top three, and center align them"
