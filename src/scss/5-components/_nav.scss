@@ -80,9 +80,13 @@ nav a {
 			color: $white;
 		}
 	}
+}
 
-	@media (min-width: $bp-sm) and (min-height: $bp-xs) {
-		html:not(.no-js).is-big-enough & {
+@media (min-width: $bp-sm) and (min-height: $bp-xs) {
+	html:not(.no-js).is-big-enough {
+		scroll-padding-top: 100px;
+
+		.header-nav {
 			position: fixed;
 			transition: background-color $duration-md;
 
@@ -97,12 +101,16 @@ nav a {
 .header-nav-link[aria-current]:after {
 	@include pseudo;
 	position: absolute;
-	bottom: 0.7em;
+	bottom: 0;
 	left: 30%;
 	right: 30%;
 	height: 2px;
 	background: $flame;
 	animation: unsquishIn $duration-sm;
+
+	@media (min-width: $bp-xs) {
+		bottom: 0.7em;	
+	}
 }
 
 

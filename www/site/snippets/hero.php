@@ -12,7 +12,7 @@
 } ?>" role="banner">
 
   <div class="hero-inner g-container<? if($isHome) { echo ' u-left-center'; } ?>">
-    <h1 class="hero-headline g-col<? if(!$isHome) { echo ' u-font-xxl'; } ?>">
+    <h1 class="hero-headline g-col<? if($isHome) { echo ' home-hero-headline'; } ?>">
       <?= $headline ?>
 
       <? if ($page->subhead() != ''): ?>

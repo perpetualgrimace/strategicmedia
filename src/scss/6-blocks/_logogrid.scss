@@ -13,8 +13,17 @@
 
 .logogrid-item {
 	display: flex;
-	padding: $gutter;
-	flex: 1 0 220px;
+	flex: 1 0 140px;
+	padding: $gutter / 4;
+
+	@media (min-width: $bp-xxs) { 
+		flex-basis: 180px;
+		padding: $gutter / 2;
+	}	
+	@media (min-width: $bp-sm) { 
+		flex-basis: 220px; 
+		padding: $gutter;
+	}	
 }
 
 .logogrid-img {

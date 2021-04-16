@@ -50,10 +50,10 @@ button, input[type='button'],
 
 // type size defaults
 h1 {
-	font-size: $font-xxl;
+	font-size: calc(#{$font-xl} + 2vw);
 
-	@media (min-width: $bp-md) {
-		font-size: $font-xxxl;
+	@media (min-width: $bp-xs) {
+		font-size: $font-xxl;
 	}
 }
 h2                    { font-size : $font-xl; }
