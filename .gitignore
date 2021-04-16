@@ -1,3 +1,6 @@
+### Strategic Media ###
+_email_signatures/
+
 ### Kirby ###
 www/media/*
 !www/media/index.html
