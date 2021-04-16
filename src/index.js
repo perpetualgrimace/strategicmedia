@@ -39,8 +39,8 @@ window.onload = () => {
 	if (window.innerWidth >= 756) {
 		document.querySelector('html').classList = 'is-big-enough';
 
-		document.addEventListener("scroll", function(e) {
-			throttle(handleScroll(e), 100);
-		});
-	}
+		document.addEventListener("scroll", throttle(function(e) {
+			handleScroll(e)
+		}, 60));
+	};
 }

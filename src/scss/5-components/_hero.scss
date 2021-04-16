@@ -11,6 +11,10 @@
 	padding-top: $gutter * 10;
 	padding-bottom: $gutter * 4;
 	min-height: 50vh;
+	will-change: opacity, transform;
+	transition: 
+		opacity $duration-lg,
+		transform $duration-lg;
 
 	@media (min-width: $bp-xs) {
 		padding-top: $gutter * 6.5;
