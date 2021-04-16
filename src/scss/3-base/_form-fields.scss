@@ -70,10 +70,6 @@ form button {
   width: 100%;
 }
 
-[class='messagebox'] {
-  display: none;
-}
-
 .messagebox:not([hidden]) {
   padding: $gutter * 3;
   width: 100%;

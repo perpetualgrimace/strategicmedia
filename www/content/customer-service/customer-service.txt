@@ -377,7 +377,7 @@ Fb-email-sender:
 
 ----
 
-Fb-email-sender-field: 
+Fb-email-sender-field: email
 
 ----
 
