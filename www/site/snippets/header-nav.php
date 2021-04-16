@@ -2,7 +2,7 @@
 	<nav class="header-nav-inner g-container">
 
 		<a class="header-nav-logo" href="<?= $site->url() ?>">
-			<img class="header-nav-logo-img" src="assets/images/strategic-media-icon.png" width="39" height="47" draggable="false" /> <span class="header-nav-logo-text subhead">Strategic Media <span class="header-nav-llc">LLC</span></span>
+			<img class="header-nav-logo-img" src="assets/images/strategic-media-icon.png" width="39" height="47" draggable="false" alt="" /> <span class="header-nav-logo-text subhead">Strategic Media <span class="header-nav-llc">LLC</span></span>
 		</a>
 
 		<ul class="header-nav-list"><? foreach ($site->children()->listed()->not('home') as $item): ?>
