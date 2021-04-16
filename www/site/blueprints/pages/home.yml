@@ -25,7 +25,7 @@ fields:
       - heading
       - image
       - text
-      textImg: blocks/textImg
-      bgImg: blocks/bgimg
+      textimg: blocks/textimg
+      bgimg: blocks/bgimg
       testimonials: blocks/testimonials
       logogrid: blocks/logogrid
