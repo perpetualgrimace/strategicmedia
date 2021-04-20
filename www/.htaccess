@@ -1,6 +1,6 @@
 # image redirects
-Redirect /wp-content/uploads/strategic_media.png /assets/images/strategic_media.png
-Redirect /wp-content/uploads/strategic_media@2x.png /assets/images/strategic_media@2x.png
+Redirect http://strategicmediallc.com/wp-content/uploads/strategic_media.png https://strategicmediallc.com/assets/images/strategic_media.png
+Redirect http://strategicmediallc.com/wp-content/uploads/strategic_media@2x.png https://strategicmediallc.com/assets/images/strategic_media@2x.png
 
 
 # Kirby .htaccess
