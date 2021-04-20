@@ -1,3 +1,8 @@
+# image redirects
+Redirect /wp-content/uploads/strategic_media.png /assets/images/strategic_media.png
+Redirect /wp-content/uploads/strategic_media@2x.png /assets/images/strategic_media@2x.png
+
+
 # Kirby .htaccess
 
 # rewrite rules
