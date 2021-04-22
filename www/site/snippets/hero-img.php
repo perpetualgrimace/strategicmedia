@@ -17,10 +17,10 @@
 	  <? endforeach ?>
 	</video>
 
-<? elseif (image($img) != NULL): ?>
+<? elseif ($img != NULL): ?>
 
 	<div class="hero-img">
-	  <img class="hero-img" src="<?= image($img)->url() ?>" alt="" draggable="false">
+	  <img class="hero-img" src="<?= $img ?>" alt="" draggable="false">
 	</div>
 
 <? endif ?>
