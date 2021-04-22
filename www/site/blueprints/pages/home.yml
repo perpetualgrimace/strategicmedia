@@ -4,28 +4,38 @@ status: unlisted
 options:
   changeStatus: false
 
-fields:
-  hero: 
-    extends: fields/hero
+tabs:
+  content:
+    label: Text content
+    icon: text
     fields:
-      heroImg:
-        label: Preview image
-        help: Shown while video loads in
-        width: 1/2
-      heroVideo:
-        label: Hero video
-        type: select
-        options: query
-        query: page.videos
-        help: All videos with the same file name (minus extension) will be used
-        width: 1/2
-  blocks:
-    type: blocks
-    fieldsets:
-      - heading
-      - image
-      - text
-      textimg: blocks/textimg
-      bgimg: blocks/bgimg
-      testimonials: blocks/testimonials
-      logogrid: blocks/logogrid
+      hero: 
+        extends: fields/hero
+        fields:
+          heroImg:
+            label: Preview image
+            help: Shown while video loads in
+            width: 1/2
+          heroVideo:
+            label: Hero video
+            type: select
+            options: query
+            query: page.videos
+            help: All videos with the same file name (minus extension) will be used
+            width: 1/2
+      blocks:
+        type: blocks
+        fieldsets:
+          - heading
+          - image
+          - text
+          textimg: blocks/textimg
+          bgimg: blocks/bgimg
+          testimonials: blocks/testimonials
+          logogrid: blocks/logogrid
+  files:
+    label: files
+    icon: image
+    sections:
+      files:
+        extends: sections/images

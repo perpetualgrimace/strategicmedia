@@ -1,6 +1,5 @@
 title: Contact
 icon: email
-preset: page
 pages: false
 files: false
 status:
@@ -8,13 +7,23 @@ status:
   unlisted: Hidden
   draft: true
 
-fields:
-  hero: fields/hero
-  col1:
-    type: textarea
-    width: 1/2
-    size: medium
-  col2:
-    type: textarea
-    width: 1/2
-    size: medium
+tabs:
+  content:
+    label: Text content
+    icon: text
+    fields:
+      hero: fields/hero
+      col1:
+        type: textarea
+        width: 1/2
+        size: medium
+      col2:
+        type: textarea
+        width: 1/2
+        size: medium
+  files:
+    label: files
+    icon: image
+    sections:
+      files:
+        extends: sections/images

@@ -33,3 +33,9 @@ tabs:
     sections:
       contactform:
         extends: formbuilder
+  files:
+    label: files
+    icon: image
+    sections:
+      files:
+        extends: sections/images
